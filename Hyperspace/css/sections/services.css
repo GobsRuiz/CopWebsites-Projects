@@ -1,0 +1,110 @@
+#services{
+    width: 100%;
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+
+
+
+
+
+/* h1 */
+#services h1{
+    font-size: var(--font-size3);
+    font-weight: 500;
+
+    margin-bottom: var(--margin-bottom1);
+}
+
+
+/* p */
+#services p{
+    font-size: var(--font-size1);
+    font-weight: 300;
+    line-height: var(--line-height);
+
+    margin-bottom: var(--margin-bottom1);
+}
+
+
+
+
+
+/* Cards */
+#services  #services_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* card */
+#services  .services_cards_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    flex: 1 0 30%;
+    max-width: 30%;
+
+    box-shadow: calc(.1vh - .1vw) calc(1.5vh + .5vw) calc(2vh + 1vw) calc(-.3vh - .1vw) rgba(0, 0, 0, .15);
+    border-radius: var(--border-radius1);
+    
+    box-sizing: border-box;
+    margin-bottom: var(--margin-bottom2);
+    padding: calc(2.5vh + 1vw) var(--padding-vertical);
+}
+/* img */
+#services .services_cards_card img{
+    width: 45%;
+
+    margin-bottom: calc(.8vh + .2vw);
+}
+/* h3 */
+#services  .services_cards_card h3{
+    font-size: calc(2vh + .8vw);
+    font-weight: 500;
+
+    margin-bottom: calc(.8vh + .2vw);
+}
+/* p */
+#services .services_cards_card p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* Bottom */
+#services #services_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* p */
+#services #services_bottom p{
+    width: 70%;
+}
+
+
+/* button */
+#services #services_bottom button{
+    color: var(--pink2);
+    font-size: var(--font-size2);
+    font-weight: 100;
+    border: calc(.1vh + .1vw) solid var(--pink2);
+    border-radius: calc(5vh + 2vw);
+
+    padding: calc(1.2vh + .5vw) calc(2.8vh + 1.2vw);
+    transition: background-color .25s;
+}#services #services_bottom button:hover{
+    color: #fff;
+    background-color: var(--pink2);
+}

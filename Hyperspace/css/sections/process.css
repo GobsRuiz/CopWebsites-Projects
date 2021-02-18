@@ -21,7 +21,7 @@
 #process_container h1{
     font-size: var(--font-size3);
 
-    margin-bottom: var(--margin-bottom);
+    margin-bottom: var(--margin-bottom2);
 }
 
 
@@ -32,7 +32,7 @@
 }
 /* li */
 #process_container ol li{
-    margin-bottom: var(--margin-bottom);
+    margin-bottom: var(--margin-bottom2);
     position: relative;
 }
 /* h3 */

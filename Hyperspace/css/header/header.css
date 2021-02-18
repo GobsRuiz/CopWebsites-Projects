@@ -34,7 +34,7 @@
     background: -webkit-linear-gradient(to bottom, #000000, #00000000);
     box-sizing: border-box;
 
-    padding: calc(6vh + 3vw) calc(10vh + 5vw);
+    padding: calc(6vh + 3vw) var(--padding-horizontal);
     position: fixed;
     z-index: 9999;
 }

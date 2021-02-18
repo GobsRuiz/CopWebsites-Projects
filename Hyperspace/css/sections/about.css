@@ -14,10 +14,10 @@
     width: 50%;
 
     background-color: #fff;
-    border-radius: calc(1.2vh + .5vw);
+    border-radius: var(--border-radius1);
     
     margin: 0 auto;
-    padding: calc(4vh + 1.5vw) calc(4vh + 1.5vw);
+    padding: var(--padding-vertical) calc(4vh + 1.5vw);
     position: relative;
 }
 
@@ -36,5 +36,4 @@
     font-size: var(--font-size1);
 
     line-height: var(--line-height);
-    margin-bottom: calc(1vh + .5vw);
 }
