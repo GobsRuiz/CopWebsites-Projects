@@ -15,11 +15,10 @@
 
     background-color: #fff;
     border-radius: calc(1.2vh + .5vw);
-
+    
     margin: 0 auto;
-    box-sizing: border-box;
     padding: calc(4vh + 1.5vw) calc(4vh + 1.5vw);
-    position: inherit;
+    position: relative;
 }
 
 /* h1 */

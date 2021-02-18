@@ -1,5 +1,5 @@
 .line{
-    height: 220%;
+    height: 221%;
 
     border: calc(.1vh) dotted #fff;
 
@@ -43,9 +43,11 @@
 /* About */
 #about_container .line_ball{
     top: 13.5%;
+    left: -14.1%;
 }
 #about_container .line_hr{
     top: 14.46%;
+    left: -10%;
 }
 
 /* Process */ 
