@@ -1,6 +1,19 @@
 #header{
     background: url("../../images/header/background.jpg") no-repeat;
     background-size: cover;
+
+    position: relative;
+}#header::after{
+    content: "";
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .5);
+
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -9,6 +22,8 @@
 
 /* Top */
 #header_top{
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,15 +32,16 @@
     background: -o-linear-gradient(to bottom, #000000, #00000000);
     background: -moz-linear-gradient(to bottom, #000000,#00000000);
     background: -webkit-linear-gradient(to bottom, #000000, #00000000);
-    
+    box-sizing: border-box;
+
     padding: calc(6vh + 3vw) calc(10vh + 5vw);
+    position: fixed;
+    z-index: 9999;
 }
 
 
 
 /* Logo */
-#header_top_logo{
-}
 #header_top_logo img{
     width: calc(20vh + 10vw);
 }
@@ -45,7 +61,7 @@
 }
 /* A */
 #header_top_menu a{
-    font-size: calc(1.8vh + .5vw);
+    font-size: var(--font-size1);
 
     margin-right: calc(2vh + .5vw);
     position: relative;
@@ -89,4 +105,70 @@
 }#header_top_menu a:hover::after,
 #header_top_languages a:hover::after{
     width: 100%;
+}
+
+
+
+
+
+/* Bottom */
+#header_bottom{
+    padding-top: calc(12vh + 6vw);
+    padding-bottom: calc(.8vh + .2vw);
+    padding-left: calc(15vh + 7vw);
+    position: relative;
+    z-index: 9;
+}
+
+
+/* Welcome paragraph */
+#header_bottom_welcomeParagraph{
+    font-size: var(--font-size1);
+
+    margin-bottom: calc(.8vh + .2vw);
+}
+
+
+/* Text */
+#header_bottom_text{
+    padding-left: calc(2.5vh + 1vw);
+}
+/* h1 */
+#header_bottom_text h1{
+    font-size: calc(5vh + 2vw);
+    font-weight: 400;
+
+    margin-bottom: calc(1vh + .4vw);
+}
+
+/* p */
+#header_bottom_text p{
+    font-size: var(--font-size1)
+}
+
+/* h1 and p */
+#header_bottom_text h1,
+#header_bottom_text p{
+    width: 40%;
+}
+
+/* Button */
+#header_bottom_text button{
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    font-size: var(--font-size1);
+
+    margin-top: calc(6vh + 3vw);
+    margin-left: calc(6vh + 3vw);
+    transition: margin-left .25s;
+}#header_bottom_text button:hover{
+    margin-left: calc(6.5vh + 3.5vw);
+}
+/* i */
+#header_bottom_text button img{
+    width: calc(2vh + 1vw);
+
+    margin-right: calc(.5vh + .2vw);
 }
