@@ -1,0 +1,39 @@
+#about{
+    background-color: var(--black);
+
+    padding: calc(4vh + 2vw) 0;
+    position: relative;
+}
+
+
+
+
+
+/* Container */
+#about_container{
+    width: 50%;
+
+    background-color: #fff;
+    border-radius: calc(1.2vh + .5vw);
+
+    margin: 0 auto;
+    padding: calc(4vh + 1.5vw) calc(4vh + 1.5vw);
+}
+
+/* h1 */
+#about_container h1{
+    color: var(--black);
+    font-size: calc(3vh + 1vw);
+    font-weight: 500;
+    text-transform: capitalize;
+
+    margin-bottom: calc(2.5vh + 1vw);
+}
+
+#about_container_paragraphs p{
+    color: var(--gray);
+    font-size: calc(1.5vh + .5vw);
+
+    line-height: calc(2.3vh + .8vw);
+    margin-bottom: calc(1vh + .5vw);
+}

@@ -1,7 +1,11 @@
 :root{
     /* Colors */
         /* Black */
-        --dark: #343a40;
+        --black: #01010C;
+        /* --dark: #343a40; */
+
+        /* Gray */
+        --gray: #6c757d;
 
         /* Pink */
         --pink: #e83e8c;

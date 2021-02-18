@@ -1,0 +1,20 @@
+.line_ball{
+    width: calc(.8vh + .3vw);
+    height: calc(.8vh + .3vw);
+    
+    display: inline-block;
+
+    border: calc(.1vh + .1vw) solid #fff;
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.line_hr{
+    width: calc(5vh + 2vw);
+    height: calc(.1vh + .1vw);
+    
+    background-color: var(--pink);
+
+    position: absolute;
+}
