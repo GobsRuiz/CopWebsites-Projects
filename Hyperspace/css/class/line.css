@@ -1,11 +1,11 @@
 .line{
-    height: calc(133vh + 40vw);
+    height: calc(110vh + 50.5vw);
 
-    border: .1vh dotted #fff;
+    border: calc(.1vh) dotted #fff;
 
     position: absolute;
-    top: calc(20vh + 5vw);
-    left: calc(18vh + 5vw);
+    top: 30%;
+    left: 14%;
     z-index: 9;
 }
 
@@ -21,7 +21,7 @@
 
     position: absolute;
     top: 5%;
-    left: calc(-14.7vh - 5vw);
+    left: -22.75%;
     z-index: 9;
 }
 
@@ -42,10 +42,10 @@
 /* Fixing some differences */
 /* About */
 #about_container .line_ball{
-    top: calc(6vh + 1.8vw);
+    top: 13.5%;
 }
 #about_container .line_hr{
-    top: calc(6.4vh + 2vw);
+    top: 14.46%;
 }
 
 /* Process */ 
