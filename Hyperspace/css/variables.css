@@ -4,6 +4,9 @@
         --black: #01010C;
         /* --dark: #343a40; */
 
+        /* White */
+        --white: rgb(196, 196, 196);
+
         /* Gray */
         --gray: #6c757d;
 
@@ -13,5 +16,11 @@
 
 
     /* HTML */
-    --font-size1: calc(1.8vh + .5vw);
+    --font-size1: calc(1.5vh + .5vw);
+    --font-size2: calc(1.8vh + .5vw);
+    --font-size3: calc(3vh + 1vw);
+
+    --line-height: calc(2.3vh + .8vw);
+
+    --margin-bottom: calc(4vh + 2vw);
 }

@@ -23,7 +23,7 @@
 /* h1 */
 #about_container h1{
     color: var(--black);
-    font-size: calc(3vh + 1vw);
+    font-size: var(--font-size3);
     font-weight: 500;
     text-transform: capitalize;
 
@@ -32,8 +32,8 @@
 
 #about_container_paragraphs p{
     color: var(--gray);
-    font-size: calc(1.5vh + .5vw);
+    font-size: var(--font-size1);
 
-    line-height: calc(2.3vh + .8vw);
+    line-height: var(--line-height);
     margin-bottom: calc(1vh + .5vw);
 }

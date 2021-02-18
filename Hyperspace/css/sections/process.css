@@ -1,0 +1,62 @@
+#process{
+    background-color: var(--black);
+
+    padding-top: calc(3vh + 1.5vw);
+}
+
+
+
+
+
+/* Container */
+#process_container{
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+
+/* h1 */
+#process_container h1{
+    font-size: var(--font-size3);
+
+    margin-bottom: var(--margin-bottom);
+}
+
+
+/* ol */
+#process_container_ol{
+    color: #fff;
+    list-style-type: decimal;
+}
+/* li */
+#process_container ol li{
+    margin-bottom: var(--margin-bottom);
+    position: relative;
+}
+/* h3 */
+#process_container_ol li h3{
+    font-weight: 300;
+    font-size: calc(1.9vh + .6vw);
+
+    margin-bottom: calc(.6vh + .2vw);
+}
+/* p */
+#process_container_ol li p{
+    color: var(--white);
+    font-size: var(--font-size1);
+    font-weight: 300;
+}
+
+
+
+
+
+/* Image */
+#process_representationImage{
+    width: 70%;
+
+    display: block;
+
+    margin: 0 auto;
+}

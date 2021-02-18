@@ -1,3 +1,4 @@
+/* Ball */
 .line_ball{
     width: calc(.8vh + .3vw);
     height: calc(.8vh + .3vw);
@@ -10,6 +11,7 @@
     position: absolute;
 }
 
+/* hr */
 .line_hr{
     width: calc(5vh + 2vw);
     height: calc(.1vh + .1vw);
@@ -17,4 +19,10 @@
     background-color: var(--pink);
 
     position: absolute;
+}
+
+/* hr and ball */
+.line_ball,
+.line_hr{
+    left: -20%;
 }
