@@ -42,25 +42,49 @@
     cursor: pointer;
 
     padding: calc(1.8vh + .5vw);
-}
-
-/* Chat */
-#chat_icon_chat{
-    background: -webkit-linear-gradient(135deg, rgb(178, 44, 212), rgb(240, 57, 122));
-    background: linear-gradient(135deg, rgb(178, 44, 212), rgb(240, 57, 122));
-
     position: relative;
     z-index: 999999;
 }
 
+/* Chat */
+#chat_icon_chat{
+    display: flex;
+
+    background: -webkit-linear-gradient(135deg, rgb(178, 44, 212), rgb(240, 57, 122));
+    background: linear-gradient(135deg, rgb(178, 44, 212), rgb(240, 57, 122));
+
+    overflow: hidden;
+}
+/* img */
+#chat_icon_chat img{
+    position: relative;
+    left: 0;
+    transition: left .2s;
+}#chat_icon_chat img:nth-child(2){
+    left: 200%;
+}
+
 /* Pencil */
 #chat_icon_pencil{
+    display: flex;
+
     background-color: #fff;
 
     position: absolute;
     bottom: 0;
     transform: scale(0);
-    transition: transform .3s ease-in-out;
+    transition: transform .2s ease-in-out;
+
+    overflow: hidden;
+}
+/* img */
+#chat_icon_pencil img{
+    position: relative;
+    left: 0;
+    transition: left .2s;
+}
+#chat_icon_pencil img:nth-child(2){
+    left: 200%;
 }
 
 /* Chat_icon:hover */
@@ -76,7 +100,7 @@
 #chat_chat{
     width: calc(30vh + 15vw);
 
-    display: grid;
+    display: none;
     grid-template-areas: 
         "infoLeft infoRight"   
         "infoBottom infoBottom" 
@@ -87,11 +111,13 @@
     background: -webkit-linear-gradient(135deg, rgb(49, 0, 62) 0%, rgb(195, 40, 110));
     background: linear-gradient(135deg, rgb(49, 0, 62) 0%, rgb(195, 40, 110));
     border-radius: var(--border-radius1);
+    opacity: 0;
     
-    position: absolute;
-    left: -52%;
-    bottom: -40%;
     padding-top: calc(2vh + 1vw);
+    position: absolute;
+    left: -45%;
+    bottom: -40%;
+    transition: left .2s, opacity .3s;
     overflow: hidden;
 }
 
