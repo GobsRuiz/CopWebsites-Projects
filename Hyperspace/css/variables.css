@@ -6,6 +6,7 @@
 
         /* White */
         --white: rgb(196, 196, 196);
+        --white2: rgb(122, 122, 122);
 
         /* Gray */
         --gray: #6c757d;
@@ -13,6 +14,8 @@
         /* Pink */
         --pink: #e83e8c;
         --pink2: #BF427F;
+        --pink2_rgba: rgba(191, 66, 127, .3);
+        --pink3: #b31c65;
 
 
 
@@ -29,5 +32,6 @@
     --margin-bottom2: calc(4vh + 2vw);
 
     --padding-vertical: calc(4vh + 1.5vw);
+    --padding-vertical2: calc(8vh + 2.5vw);
     --padding-horizontal: calc(10vh + 5vw);
 }
