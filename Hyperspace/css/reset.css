@@ -11,6 +11,9 @@ a, p, h1, h2, h3, h4, h5, h6{
     text-transform: initial;
 }
 
+.section_black{
+    background-color: var(--black);
+}
 /* Text color */
 .section_black,
 .section_black a{
