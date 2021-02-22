@@ -1,6 +1,4 @@
 #about{
-    background-color: var(--black);
-
     padding: calc(4vh + 2vw) 0;
     position: relative;
 }
