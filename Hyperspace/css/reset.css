@@ -29,11 +29,15 @@ a{
     text-decoration: none;
 }
 
-hr, button{
+hr, button, input{
     border: 0;
 }
 
 button{
     cursor: pointer;
     background-color: transparent;
+}
+
+input{
+    outline: 0;
 }
