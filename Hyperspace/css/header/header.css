@@ -137,7 +137,7 @@
 /* h1 */
 #header_bottom_text h1{
     font-size: calc(5vh + 2vw);
-    font-weight: 400;
+    font-weight: 300;
 
     margin-bottom: calc(1vh + .4vw);
 }
@@ -145,6 +145,7 @@
 /* p */
 #header_bottom_text p{
     font-size: var(--font-size2);
+    font-weight: 300;
     line-height: var(--line-height);
 }
 

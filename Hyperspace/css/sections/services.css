@@ -99,7 +99,7 @@
 #services #services_partner button{
     color: var(--pink2);
     font-size: var(--font-size2);
-    font-weight: 100;
+    font-weight: 300;
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: calc(5vh + 2vw);
 
