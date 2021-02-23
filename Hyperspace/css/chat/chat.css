@@ -237,13 +237,13 @@
     padding: calc(2vh + .8vw) calc(2.5vh + 1vw);
 }
 
-/* Input */
-#chat_chat_form input{
+/* textarea */
+#chat_chat_form textarea{
     width: 100%;
 
     font-size: var(--font-size2);
-}#chat_chat_form input::placeholder{
-    font-weight: 100;
+}#chat_chat_form textarea::placeholder{
+    font-weight: 500;
 }
 
 

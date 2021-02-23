@@ -3,12 +3,9 @@
     padding: 0;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-a, p, h1, h2, h3, h4, h5, h6{
+a, p, h1, h2, h3, h4, h5, h6, input, span, textarea, button{
     text-transform: initial;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section_black{
@@ -29,7 +26,7 @@ a{
     text-decoration: none;
 }
 
-hr, button, input{
+hr, button, input, textarea{
     border: 0;
 }
 
@@ -38,6 +35,6 @@ button{
     background-color: transparent;
 }
 
-input{
+input, textarea{
     outline: 0;
 }
