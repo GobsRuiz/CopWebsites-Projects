@@ -21,7 +21,10 @@
 
     <!-- Animation -->
         <!-- Page loaded -->
-        <link rel="stylesheet" href="css/pageLoaded/pageLoaded.css">
+        <link rel="stylesheet" href="css/animation/pageLoaded.css">
+
+        <!-- Scrolling animation -->
+        <link rel="stylesheet" href="css/animation/scrollingAnimation.css">
 
     <!-- HTML -->
         <!-- Class -->
@@ -122,7 +125,7 @@
     <main>
         <!-- About -->
         <section id="about" class="section_black">
-            <div id="about_container">
+            <div id="about_container" class="topToBottom_scrollingAnimation">
                 <!-- Line -->
                 <!-- Ball -->
                 <span class="line_ball"></span>
@@ -166,7 +169,7 @@
                 <!-- ol -->
                 <ol id="process_container_ol">
                     <!-- li -->
-                    <li>
+                    <li class="topToBottom_scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -186,7 +189,7 @@
                     </li>
 
                     <!-- li -->
-                    <li>
+                    <li class="topToBottom_scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -206,7 +209,7 @@
                     </li>
 
                     <!-- li -->
-                    <li>
+                    <li class="topToBottom_scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -231,7 +234,7 @@
             </div>
 
             <!-- Image -->
-            <img src="images/sections/process/agile.png" alt="" id="process_representationImage">
+            <img src="images/sections/process/agile.png" alt="" id="process_representationImage" class="topToBottom_scrollingAnimation">
         </section>
 
         <!-- Services -->
@@ -497,6 +500,9 @@
 
     <!-- Page loaded -->
     <script src="js/pageLoaded.js"></script>
+
+    <!-- Scrolling animation -->
+    <script src="js/scrollingAnimation.js"></script>
 
     <!-- Chat -->
     <script src="js/chat/chat.js"></script>
