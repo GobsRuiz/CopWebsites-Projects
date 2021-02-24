@@ -1,8 +1,0 @@
-.topToBottom_scrollingAnimation,
-.services_cards_card{
-    opacity: 0;
-
-    position: relative;
-    bottom: calc(2vh + .8vw);
-    transition: bottom .6s ease-out, opacity .6s ease-out;
-}

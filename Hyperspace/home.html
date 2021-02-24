@@ -20,11 +20,7 @@
     <link rel="stylesheet" href="css/variables.css">
 
     <!-- Animation -->
-        <!-- Page loaded -->
-        <link rel="stylesheet" href="css/animation/pageLoaded.css">
-
-        <!-- Scrolling animation -->
-        <link rel="stylesheet" href="css/animation/scrollingAnimation.css">
+    <link rel="stylesheet" href="css/animation/animation.css">
 
     <!-- HTML -->
         <!-- Class -->
@@ -60,20 +56,20 @@
         <!-- Top -->
         <div id="header_top">
             <!-- Logo -->
-            <div id="header_top_logo" class="topToBottom">
+            <div id="header_top_logo">
                 <img src="images/header/hyperspace-logo.svg" alt="">
             </div>
 
             <!-- Left content -->
             <div id="header_top_leftContent">
                 <!-- Change language -->
-                <div id="header_top_languages">
+                <div id="header_top_languages" class="opacity scrollingAnimation">
                     <a href="">PT</a>
                     <a href="">EN</a>
                 </div>
 
                 <!-- Menu -->
-                <nav id="header_top_menu">
+                <nav id="header_top_menu" class="opacity scrollingAnimation">
                     <a href="">
                         sobre
                     </a>
@@ -93,18 +89,18 @@
         <!-- Bottom -->
         <div id="header_bottom">
             <!-- p -->
-            <p id="header_bottom_welcomeParagraph" class="topToBottom">
+            <p id="header_bottom_welcomeParagraph" class="topToBottom scrollingAnimation">
                 Bem vindo a uma dimensão diferente de negócios
             </p>
 
             <!-- Text -->
             <div id="header_bottom_text">
                 <!-- h1 -->
-                <h1 class="topToBottom">
+                <h1 class="topToBottom scrollingAnimation">
                     Design, Desenvolvimento & Consultoria
                 </h1>
                 <!-- p -->
-                <p class="topToBottom">
+                <p class="topToBottom scrollingAnimation">
                     Nosso compromisso é ajudar você a inovar 
                     através do design e desenvolvimento de produtos 
                     digitais com foco no crescimento do seu negócio.
@@ -125,7 +121,7 @@
     <main>
         <!-- About -->
         <section id="about" class="section_black">
-            <div id="about_container" class="topToBottom_scrollingAnimation">
+            <div id="about_container" class="topToBottom scrollingAnimation">
                 <!-- Line -->
                 <!-- Ball -->
                 <span class="line_ball"></span>
@@ -169,7 +165,7 @@
                 <!-- ol -->
                 <ol id="process_container_ol">
                     <!-- li -->
-                    <li class="topToBottom_scrollingAnimation">
+                    <li class="topToBottom scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -189,7 +185,7 @@
                     </li>
 
                     <!-- li -->
-                    <li class="topToBottom_scrollingAnimation">
+                    <li class="topToBottom scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -209,7 +205,7 @@
                     </li>
 
                     <!-- li -->
-                    <li class="topToBottom_scrollingAnimation">
+                    <li class="topToBottom scrollingAnimation">
                         <!-- Line -->
                         <!-- Ball -->
                         <span class="line_ball"></span>
@@ -234,7 +230,7 @@
             </div>
 
             <!-- Image -->
-            <img src="images/sections/process/agile.png" alt="" id="process_representationImage" class="topToBottom_scrollingAnimation">
+            <img src="images/sections/process/agile.png" alt="" id="process_representationImage" class="topToBottom scrollingAnimation">
         </section>
 
         <!-- Services -->
@@ -498,11 +494,11 @@
         alert("Este projeto é a tentativa de copiar o site da empresa Hyperspace. Site oficial: https://hyperspace.com.br/")
     </script> -->
 
-    <!-- Page loaded -->
-    <script src="js/pageLoaded.js"></script>
-
     <!-- Scrolling animation -->
-    <script src="js/scrollingAnimation.js"></script>
+        <!-- Load page -->
+        <script src="js/animation/loadPage.js"></script>
+        <!-- Scrolling animation -->
+        <script src="js/animation/scrollingAnimation.js"></script>
 
     <!-- Chat -->
     <script src="js/chat/chat.js"></script>
