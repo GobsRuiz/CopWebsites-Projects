@@ -1,12 +1,34 @@
 function scrollingAnimation() {
     let value = 0;
+    let symbol = 0;
+
+    
+    
+    // Load
+    window.addEventListener("load", () => {
+        value = window.pageYOffset;
+
+        // Check which check will be executed, the one with the greater than or lesser sign 
+        // This is for, if the user reloads the page, but is not on top of it. Will make the animation run at the right time
+        if(value > 100){
+            symbol = "maior";
+            value = 700;
+        }else{
+            symbol = "menor";
+            value = 0;
+        }
+    })
+
+
+
+    // Scroll
     window.addEventListener("scroll", () => {
         // Elements
         let topToBottom = document.querySelectorAll(".topToBottom_scrollingAnimation");
         let servicesCards = document.querySelectorAll("#services .services_cards_card");
         
         // Screen height
-        let screenPosition = window.innerHeight / 2 + 150;
+        let screenPosition = window.innerHeight / 2 + 200 - value;
 
         // Get current position
         let topToBottom_CurrentPosition = functionForeach(topToBottom);
@@ -48,12 +70,13 @@ function scrollingAnimation() {
     // Verification
     function verification(screenPosition, array) {
         array.forEach(element => {
-            if(Math.sign(element.top) == -1){
-                if(element.top > (screenPosition - 600)) {
+            // Execute animation 
+            if(symbol == "maior"){
+                if(element.top > screenPosition) {
                     defineStyle(element.element);
                 }
-            }else{
-                if(element.top < screenPosition){
+            }else if(symbol == "menor"){
+                if(element.top < screenPosition) {
                     defineStyle(element.element);
                 }
             }
@@ -65,18 +88,19 @@ function scrollingAnimation() {
         let value = 0;
 
         array.forEach(element => {
-            if(Math.sign(element.top) == -1){
-                if(element.top > (screenPosition - 600)){
+            // Execute animation
+            if(symbol == "maior"){
+                if(element.top > screenPosition){
                     setTimeout(() => {
-                        defineStyle(element.element)
+                        defineStyle(element.element, 1, 0)
                     }, value);
     
                     value += 200;
                 }
-            }else{
+            }else if(symbol == "menor"){
                 if(element.top < screenPosition){
                     setTimeout(() => {
-                        defineStyle(element.element)
+                        defineStyle(element.element, 1, 0)
                     }, value);
     
                     value += 200;
