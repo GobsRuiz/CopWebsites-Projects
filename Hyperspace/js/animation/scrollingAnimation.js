@@ -1,16 +1,4 @@
 function scrollingAnimation() {
-    let value = 0;
-    let symbol = 0;
-
-    
-    
-    // Load
-    window.addEventListener("load", () => {
-        
-    })
-
-
-
     // Scroll
     window.addEventListener("scroll", () => {
         // Elements
@@ -24,7 +12,7 @@ function scrollingAnimation() {
         let topToBottom = document.querySelectorAll(".topToBottom");
         
         // Screen height
-        let screenPosition = window.innerHeight / 2 + 200 - value;
+        let screenPosition = window.innerHeight / 2 + 200;
 
         // Get current position
         let servicesCards_CurrentPosition = functionForeach(servicesCards);
@@ -39,7 +27,7 @@ function scrollingAnimation() {
         servicesCards_animate(screenPosition, servicesCards_CurrentPosition)
 
         // Top to bottom
-        topToBottom_animate(screenPosition, topToBottom_CurrentPosition)
+        topToBottom_animate(screenPosition, topToBottom_CurrentPosition);
     })
 
     // Get current position
@@ -96,9 +84,16 @@ function scrollingAnimation() {
     // Verification
     function verification(screenPosition, array) {
         array.forEach(element => {
-            // Execute animation 
-            if(element.top < screenPosition) {
-                defineStyle(element.element);
+            // Check if the number is negative
+            // Check if it has already passed
+            if(Math.sign(element.top) == -1){
+                if(element.top > (screenPosition - 600)) {
+                    defineStyle(element.element);
+                }
+            }else{
+                if(element.top < screenPosition) {
+                    defineStyle(element.element);
+                }
             }
         });
     }
@@ -108,13 +103,24 @@ function scrollingAnimation() {
         let value = 0;
 
         array.forEach(element => {
-            // Execute animation
-            if(element.top < screenPosition){
-                setTimeout(() => {
-                    defineStyle(element.element, 1, 0)
-                }, value);
-
-                value += 200;
+            // Check if the number is negative
+            // Check if it has already passed
+            if(Math.sign(element.top) == -1){
+                if(element.top > (screenPosition - 600)){
+                    setTimeout(() => {
+                        defineStyle(element.element, 1, 0)
+                    }, value);
+    
+                    value += 200;
+                }
+            }else {
+                if(element.top < screenPosition){
+                    setTimeout(() => {
+                        defineStyle(element.element, 1, 0)
+                    }, value);
+    
+                    value += 200;
+                }
             }
         });
     }
