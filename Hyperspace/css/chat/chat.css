@@ -18,6 +18,8 @@
     font-size: var(--font-size1);
     background-color: #fff;
     border-radius: calc(1.8vh + .6vw);
+    box-shadow: 0 calc(.4vh + .2vw) calc(2.5vh + 1vw) 0 rgba(0, 0, 0, .3);
+    cursor: pointer;
 
     margin-right: calc(1vh + .5vw);
     padding: calc(1vh + .5vw) calc(1.2vh + .5vw);
@@ -39,6 +41,7 @@
     height: calc(2vh + .8vw);
 
     border-radius: 50%;
+    box-shadow: 0 calc(.4vh + .2vw) calc(2.5vh + 1vw) 0 rgba(0, 0, 0, .3);
     cursor: pointer;
 
     padding: calc(1.8vh + .5vw);
@@ -111,6 +114,7 @@
     background: -webkit-linear-gradient(135deg, rgb(49, 0, 62) 0%, rgb(195, 40, 110));
     background: linear-gradient(135deg, rgb(49, 0, 62) 0%, rgb(195, 40, 110));
     border-radius: var(--border-radius1);
+    box-shadow: 0 calc(.4vh + .2vw) calc(2.5vh + 1vw) 0 rgba(0, 0, 0, .3);
     opacity: 0;
     
     padding-top: calc(2vh + 1vw);
