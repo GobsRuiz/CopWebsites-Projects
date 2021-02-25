@@ -31,7 +31,7 @@
     --margin-bottom1: calc(2.2vh + 1vw);
     --margin-bottom2: calc(4vh + 2vw);
 
-    --padding-vertical: calc(4vh + 1.5vw);
+    --padding-vertical: calc(4.5vh + 2vw);
     --padding-vertical2: calc(8vh + 2.5vw);
     --padding-horizontal: calc(10vh + 5vw);
 }
