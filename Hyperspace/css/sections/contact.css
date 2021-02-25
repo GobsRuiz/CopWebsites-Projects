@@ -1,0 +1,90 @@
+#contact{
+    padding: var(--padding-vertical2) var(--padding-horizontal);
+}
+
+
+
+
+
+/* Social networks */
+#contact_socialNetworks{
+    width: 40%;
+    
+    margin: 0 auto;
+    margin-bottom: calc(8vh + 3.5vw);
+}
+ 
+/* p */
+#contact_socialNetworks p{
+    text-align: center;
+
+    font-size: calc(2.2vh + .5vw);
+    font-weight: 300;
+
+    margin-bottom: calc(1.5vh + .5vw);
+}
+ 
+/* Social networks images */
+#contact_socialNetworks_images{
+    display: flex;
+    justify-content: space-between;
+}
+/* div */
+#contact_socialNetworks_images a{
+    width: calc(4vh + 1.5vw);
+
+    border: calc(.1vh + .1vw) solid var(--pink2);
+    border-radius: 50%;
+
+    padding: calc(3vh + 1.5vw);
+    transition: .25s border;
+}#contact_socialNetworks_images a:hover{
+    border-color: #fff;
+}
+/* img */
+#contact_socialNetworks_images a img{
+    width: 100%;
+    display: block;
+
+    margin: 0 auto;
+}
+ 
+ 
+ 
+ 
+ 
+ /* Contact */
+#contact_contact{
+    display: flex;
+    justify-content: space-between;
+
+    /* padding: 0 calc(1.5vh + .5vw); */
+}
+ 
+ /* p */
+#contact_contact p{
+    font-size: calc(3.2vh + 1.1vw);
+}
+#contact_contact p span{
+    text-decoration: underline;
+}
+ 
+/* button */
+#contact_contact button{
+    color: #fff;
+    font-size: var(--font-size2);
+    font-weight: 300;
+    background-color: var(--pink2);
+    border-radius: calc(5vh + 2vw);
+    
+
+    padding: calc(1.5vh + .5vw) calc(3.8vh + 1.25vw);
+    position: relative;
+    top: 0;
+    transition: top .25s, box-shadow .25s, background-color .25s;
+}#contact_contact button:hover {
+    background-color: var(--pink3);
+    box-shadow: 0 calc(.8vh + .4vw) calc(1.2vh + .5vw) 0 var(--pink2_rgba);
+
+    top: calc(-.5vh - .2vw);
+}
