@@ -63,7 +63,7 @@
 
 /* Responsive */
 /* 1440 */
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1440px) {
     .line{
         height: 218%;
 
@@ -95,7 +95,7 @@
 
 /* Responsive */
 /* 1366 */
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1366px) {
     .line{
         height: 213.2%;
 
