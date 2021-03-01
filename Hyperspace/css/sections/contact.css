@@ -145,17 +145,12 @@
 @media screen and (min-width: 1024px){
     /* Height */
     /* 600 */
-    @media screen and (min-height: 600) {
+    @media screen and (min-height: 600px) {
         /* div */
     #contact_socialNetworks_images a{
-        width: 1vh;
+        width: 4vh;
 
-        border: calc(.1vh + .1vw) solid var(--pink2);
-        border-radius: 50%;
-
-        margin: 0 2vh;
-        padding: 6.5vh;
-        transition: .25s border;
+        padding: 5vh;
     }
     }
 }
