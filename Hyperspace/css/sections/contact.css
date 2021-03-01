@@ -1,5 +1,5 @@
 #contact{
-    padding: var(--padding-vertical2) var(--padding-horizontal);
+    padding: var(--padding-vertical2) 0;
 }
 
 
@@ -55,11 +55,12 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    /* padding: 0 calc(1.5vh + .5vw); */
+    padding: 0 calc(6.5vh + 3vw);
 }
  
 /* p */
 #contact_contact p{
+    flex: 1;
     font-size: calc(3.2vh + 1.2vw);
 }
 #contact_contact p span{
