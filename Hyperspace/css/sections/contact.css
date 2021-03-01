@@ -61,7 +61,10 @@
 /* p */
 #contact_contact p{
     flex: 1;
+
     font-size: calc(3.2vh + 1.2vw);
+
+    padding-right: calc(2vh + 1vw);
 }
 #contact_contact p span{
     text-decoration: underline;
