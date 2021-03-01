@@ -108,9 +108,7 @@
 #contact_contact p{
     flex: 1;
 
-    border: 1px solid red;
-
-    font-size: calc(2.8vh + 1.3vw);
+    font-size: calc(3vh + .8vw);
 
     padding-right: calc(2vh + 1vw);
 }
