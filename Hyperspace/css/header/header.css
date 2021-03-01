@@ -185,6 +185,16 @@
 
 
 /* Responsive */
+/* 1366 */
+@media screen and (max-width: 1366px) {
+    /* Header bottom */
+    #header_bottom{
+        padding-top: calc(16vh + 7vw);
+        padding-left: calc(14vh + 7vw);
+    }
+
+}
+
 /* 1280 */
 @media screen and (max-width: 1280px) {
     /* Top */
