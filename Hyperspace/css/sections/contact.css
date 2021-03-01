@@ -1,5 +1,5 @@
 #contact{
-    padding-bottom: var(--padding-vertical);
+    padding-bottom: calc(10vh + 2.5vw);
 }
 
 
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    margin-bottom: var(--margin-bottom3);
+    margin-bottom: calc(10vh + 2.5vw);
     position: relative;
 }#contact_address::after{
     content: "";
@@ -38,7 +38,7 @@
 /* p */
 #contact_address p{
     color: #fff;
-    font-size: var(--font-size1);
+    font-size: calc(2vh + .5vw);
 
 
     position: relative;
@@ -54,17 +54,17 @@
 
 /* Social networks */
 #contact_socialNetworks{
-    margin-bottom: calc(8vh + 3.5vw);
+    margin-bottom: calc(10vh + 2.5vw);
 }
  
 /* p */
 #contact_socialNetworks p{
     text-align: center;
 
-    font-size: var(--font-size2);
+    font-size: calc(2.8vh + .6vw);
     font-weight: 300;
 
-    margin-bottom: calc(1.5vh + .5vw);
+    margin-bottom: calc(2vh + .5vw);
 }
  
 /* Social networks images */
@@ -74,13 +74,13 @@
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: calc(3.8vh + 1.8vw);
+    width: calc(4.5vh + 1.25vw);
 
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: 50%;
 
-    margin: 0 calc(1vh + .5vw);
-    padding: calc(3vh + 1.5vw);
+    margin: 0 calc(1.2vh + .3vw);
+    padding: calc(4.2vh + 1vw);
     transition: .25s border;
 }#contact_socialNetworks_images a:hover{
     border-color: #fff;
@@ -101,16 +101,16 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    padding: 0 calc(6.5vh + 3vw);
+    padding: 0 calc(10vh + 3vw);
 }
  
 /* p */
 #contact_contact p{
     flex: 1;
 
-    font-size: calc(3vh + .8vw);
+    font-size: calc(4vh + 1vw);
 
-    padding-right: calc(2vh + 1vw);
+    padding-right: calc(2vh + .5vw);
 }
 #contact_contact p span{
     text-decoration: underline;
@@ -119,13 +119,13 @@
 /* button */
 #contact_contact button{
     color: #fff;
-    font-size: var(--font-size1);
+    font-size: calc(1.8vh + .4vw);
     font-weight: 300;
     background-color: var(--pink2);
-    border-radius: calc(5vh + 2vw);
+    border-radius: var(--border-radius3);
     
 
-    padding: calc(1.5vh + .5vw) calc(3.8vh + 1.25vw);
+    padding: calc(1.7vh + .35vw) calc(3.5vh + 1.25vw);
     position: relative;
     top: 0;
     transition: top .25s, box-shadow .25s, background-color .25s;
@@ -141,12 +141,3 @@
 
 
 /* Responsive */
-/* 1024 */
-@media screen and (max-width: 1024px) {
-    /* Social network images */
-    /* div */
-    #contact_socialNetworks_images a{
-        margin: 0 10px;
-        padding: 45px;
-    }
-}

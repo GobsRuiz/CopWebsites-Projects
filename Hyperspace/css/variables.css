@@ -29,6 +29,7 @@
     --line-height2: calc(2.7vh + 1vw);
 
     --border-radius1: calc(1.2vh + .5vw);
+    --border-radius3: calc(5vh + 2vw);
 
     --margin-bottom1: calc(2.2vh + 1vw);
     --margin-bottom2: calc(4vh + 2vw);
