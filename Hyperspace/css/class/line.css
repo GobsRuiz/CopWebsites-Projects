@@ -43,11 +43,11 @@
 /* About */
 #about_container .line_ball{
     top: 13.5%;
-    left: -14.1%;
+    left: -12.9%;
 }
 #about_container .line_hr{
     top: 14.46%;
-    left: -10%;
+    left: -9%;
 }
 
 /* Process */ 
@@ -64,6 +64,16 @@
 @media screen and (max-width: 1024px) {
     .line{
         height: 251%;
+    }
+
+
+    /* Fixing some differences */
+    /* About */
+    #about_container .line_ball{
+        left: -18.5%;
+    }
+    #about_container .line_hr{
+        left: -14%;
     }
 }
 

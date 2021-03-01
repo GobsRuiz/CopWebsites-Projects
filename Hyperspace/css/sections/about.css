@@ -15,7 +15,7 @@
     border-radius: var(--border-radius1);
     
     margin: 0 auto;
-    padding: var(--padding-vertical) calc(5vh + 2.5vw);
+    padding: var(--padding-vertical) calc(4vh + 2vw);
     position: relative;
 }
 
@@ -45,6 +45,11 @@
 /* Responsive */
 /* 1024 */
 @media screen and (max-width: 1024px) {
+    /* Container */
+    #about_container{
+        width: 45%;
+    }
+
     /* h1 */
     #about_container h1{
         font-size: 30px;
