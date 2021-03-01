@@ -4,7 +4,7 @@
 
     position: fixed;
     right: 2%;
-    bottom: 6%;
+    bottom: 8%;
     z-index: 99999;
 }
 
@@ -17,13 +17,13 @@
     color: var(--black);
     font-size: var(--font-size1);
     background-color: #fff;
-    border-radius: calc(1.8vh + .6vw);
+    border-radius: calc(1.6vh + .5vw);
     box-shadow: 0 calc(.4vh + .2vw) calc(2.5vh + 1vw) 0 rgba(0, 0, 0, .3);
     cursor: pointer;
     opacity: 0;
 
     margin-right: calc(1vh + .5vw);
-    padding: calc(1vh + .5vw) calc(1.2vh + .5vw);
+    padding: calc(.8vh + .4vw) calc(1.2vh + .5vw);
     transition: opacity .4s;
 }
 
