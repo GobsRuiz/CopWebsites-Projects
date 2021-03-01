@@ -63,12 +63,12 @@
 
 /* Responsive */
 /* 1440 */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     .line{
         height: 218%;
 
         top: 28%;
-        left: 16%;
+        left: 16.5%;
     }
 
 
@@ -95,10 +95,10 @@
 
 /* Responsive */
 /* 1366 */
-@media screen and (min-width: 1366px) {
+/* @media screen and (min-width: 1366px) {
     .line{
         height: 213.2%;
-        border: 1px solid red;
+
         top: 35%;
         left: 15%;
     }
@@ -113,7 +113,7 @@
     #about_container .line_hr{
         left: -9%;
     }
-}
+} */
 
 /* 1280 */
 @media screen and (max-width: 1280px) {
