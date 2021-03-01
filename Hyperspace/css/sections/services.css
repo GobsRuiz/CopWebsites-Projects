@@ -1,12 +1,12 @@
 #services{
-    width: 100%;
+    width: 85%;
 
     box-sizing: border-box;
 
     margin: 0 auto;
 }
 #services_content{
-    padding: var(--padding-vertical) var(--padding-horizontal);
+    padding: var(--padding-vertical) 0;
 }
 
 
@@ -56,7 +56,7 @@
     
     box-sizing: border-box;
     margin-bottom: var(--margin-bottom2);
-    padding: calc(3vh + 1vw) calc(2.5vh + 1vw);
+    padding: calc(3vh + 1vw) calc(2vh + .8vw);
 }
 /* img */
 #services .services_cards_card img{

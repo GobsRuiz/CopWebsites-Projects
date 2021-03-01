@@ -65,8 +65,33 @@
 /* 1280 */
 @media screen and (max-width: 1280px) {
     .line{
-        top: 28%;
-        left: 16.5%;
+        height: 213.2%;
+
+        top: 33%;
+        left: 9%;
+    }
+
+
+
+    /* Ball */
+    .line_ball{
+        top: 5%;
+        left: -32.75%;
+    }
+
+    /* hr */
+    .line_hr{
+        top: 10.4%;
+        left: -27%;
+    }
+
+    /* Fixing some differences */
+    /* About */
+    #about_container .line_ball{
+        left: -20%;
+    }
+    #about_container .line_hr{
+        left: -15%;
     }
 }
 
