@@ -4,8 +4,6 @@
     border: calc(.1vh) dotted #fff;
 
     position: absolute;
-    top: 32%;
-    left: 14%;
     z-index: 9;
 }
 
@@ -60,6 +58,22 @@
 
 
 /* Responsive */
+@media screen and (min-width: 1280px) {
+    .line{
+        top: 28%;
+        left: 16.5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .line{
+        height: 233%;
+
+        top: 32%;
+        left: 14%;
+    }
+}
+
 /* 1024 */
 @media screen and (max-width: 1024px) {
     .line{
