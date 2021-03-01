@@ -69,6 +69,17 @@
 
         top: 35%;
     }
+
+
+
+    /* Fixing some differences */
+    /* About */
+    #about_container .line_ball{
+        left: -12.2%;
+    }
+    #about_container .line_hr{
+        left: -9%;
+    }
 }
 
 /* 1280 */
