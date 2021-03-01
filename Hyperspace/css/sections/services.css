@@ -28,7 +28,7 @@
     font-weight: 300;
     line-height: var(--line-height);
 
-    margin-bottom: var(--margin-bottom1);
+    margin-bottom: var(--margin-bottom2);
 }
 
 
@@ -150,7 +150,7 @@
 /* p */
 #services_address p{
     color: #fff;
-    font-size: var(--font-size2);
+    font-size: calc(2vh + .8vw);
 
     position: relative;
     z-index: 9;
@@ -175,8 +175,6 @@
     #services p{
         font-size: 16px;
         line-height: 22px;
-
-        margin-bottom: var(--margin-bottom2);
     }
 
 
@@ -210,7 +208,7 @@
     }
 
 
-    
+
     /* Cards */
     #services  .services_cards_card{
         max-width: 45%;
