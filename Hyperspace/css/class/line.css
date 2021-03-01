@@ -149,10 +149,10 @@
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
-        left: -20%;
+        left: -22.5%;
     }
     #about_container .line_hr{
-        left: -15%;
+        left: -18%;
     }
 }
 
@@ -169,7 +169,7 @@
 
     /* Ball */
     .line_ball{
-        left: -31%;
+        left: -30.9%;
     }
 
     /* hr */
