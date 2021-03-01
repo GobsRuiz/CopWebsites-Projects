@@ -1,5 +1,6 @@
 #services{
     width: 100%;
+
     box-sizing: border-box;
 
     margin: 0 auto;
@@ -42,21 +43,20 @@
 }
 /* card */
 #services  .services_cards_card{
+    max-width: 30%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     text-align: center;
 
-    flex: 1 0 30%;
-    max-width: 30%;
-
     box-shadow: 0 calc(2vh + .8vw) calc(2.5vh + 1vw) calc(.1vh + .1vw) rgba(0, 0, 0, 0.090);
     border-radius: var(--border-radius1);
     
     box-sizing: border-box;
     margin-bottom: var(--margin-bottom2);
-    padding: calc(2.5vh + 1vw) var(--padding-vertical);
+    padding: calc(3vh + 1vw) calc(2.5vh + 1vw);
 }
 /* img */
 #services .services_cards_card img{
@@ -66,13 +66,15 @@
 }
 /* h3 */
 #services  .services_cards_card h3{
-    font-size: calc(2vh + .8vw);
+    font-size: var(--font-size2);
     font-weight: 500;
 
     margin-bottom: calc(.8vh + .2vw);
 }
 /* p */
 #services .services_cards_card p {
+    font-size: var(--font-size1);
+
     margin-bottom: 0;
 }
 
@@ -92,13 +94,16 @@
 /* p */
 #services #services_partner p{
     width: 70%;
+
+    box-sizing: border-box;
+    padding-right: calc(4vh + 2vw);
 }
 
 
 /* button */
 #services #services_partner button{
     color: var(--pink2);
-    font-size: var(--font-size2);
+    font-size: var(--font-size1);
     font-weight: 300;
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: calc(5vh + 2vw);
@@ -152,4 +157,65 @@
 }
 #services_address p span{
     font-weight: bold;
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    /* Content */
+    #services_content{
+        padding: var(--padding-vertical) var(--padding-horizontal2);
+    }
+
+
+
+    /* h1 */
+    #services h1{
+        font-size: var(--font-size4);
+    }
+
+    /* p */
+    #services p{
+        font-size: calc(1.8vh + .8vw);
+        line-height: var(--line-height2);
+
+        margin-bottom: var(--margin-bottom2);
+    }
+
+
+
+    /* Cards */
+    #services  .services_cards_card{
+        max-width: 45%;
+
+        padding: calc(4vh + 2vw) calc(2.5vh + 1vw);
+    }
+
+    /* img */
+    #services .services_cards_card img{
+        width: 32%;
+    }
+
+    /* h3 */
+    #services  .services_cards_card h3{
+        font-size: calc(2.5vh + 1vw);
+    }
+
+    /* p */
+    #services .services_cards_card p {
+        font-size: calc(1.8vh + .7vw);
+    }
+
+
+
+    /* Partner */
+    /* button */
+    #services #services_partner button{
+        font-size: calc(1.7vh + .7vw);
+
+        padding: calc(2vh + 1vw) calc(2.8vh + 1.2vw);
+    }
 }

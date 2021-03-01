@@ -1,10 +1,10 @@
 .line{
-    height: 221%;
+    height: 233%;
 
     border: calc(.1vh) dotted #fff;
 
     position: absolute;
-    top: 30%;
+    top: 32%;
     left: 14%;
     z-index: 9;
 }
@@ -54,3 +54,34 @@
 #process_container_ol li:last-child .line_hr{
     top: 8.623%;
 }   
+
+
+
+
+
+/* Responsive */
+/* 1080 */
+@media screen and (max-width: 1079px) {
+    .line{
+        height: 226.5%;
+    }
+}
+
+/* 991 */
+@media screen and (max-width: 991px) {
+    .line{
+        height: 246.5%;
+    }
+
+
+    
+    /* Ball */
+    .line_ball{
+        left: -22.85%;
+    }
+
+    /* About */
+    #about_container .line_ball{
+        left: -13.5%;
+    }
+}

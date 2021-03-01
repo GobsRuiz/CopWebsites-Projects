@@ -4,8 +4,7 @@ function loadPage() {
         let logo = document.getElementById("header_top_logo");
         let languages = document.querySelectorAll("#header_top_languages a");
         let menuLinks = document.querySelectorAll("#header_top_menu a");
-        let headerBottomTexth1 = document.querySelector("#header_bottom_text h1");
-        let headerBottomTextp = document.querySelector("#header_bottom_text p");
+        let headerBottom_topToBottom = document.querySelectorAll("#header_bottom .topToBottom");
 
         // Chat
         let chatIcon = document.getElementById("chat_icon_chat");
@@ -32,11 +31,10 @@ function loadPage() {
                 timeout += 150;
             });
 
-            // Header bottom text h1
-            defineStyle(headerBottomTexth1)
-
-            // Header bottom text p
-            defineStyle(headerBottomTextp)
+            // Header bottom
+            headerBottom_topToBottom.forEach(element => {
+                defineStyle(element)
+            });
         }
 
         // Chat
@@ -53,6 +51,6 @@ function loadPage() {
     function defineStyle(element){
         element.style.opacity = 1;
         element.style.left = 0;
-        element.style.bototm = 0;
+        element.style.bottom = 0;
     }
 }loadPage();

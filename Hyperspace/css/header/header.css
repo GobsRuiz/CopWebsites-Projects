@@ -124,9 +124,9 @@
 
 /* Welcome paragraph */
 #header_bottom_welcomeParagraph{
-    font-size: var(--font-size2);
+    font-size: var(--font-size1);
 
-    margin-bottom: calc(.8vh + .2vw);
+    margin-bottom: calc(.6vh + .3vw);
 }
 
 
@@ -134,6 +134,13 @@
 #header_bottom_text{
     padding-left: calc(2.5vh + 1vw);
 }
+
+/* h1 and p */
+#header_bottom_text h1,
+#header_bottom_text p{
+    width: 45%;
+}
+
 /* h1 */
 #header_bottom_text h1{
     font-size: calc(5vh + 2vw);
@@ -144,16 +151,11 @@
 
 /* p */
 #header_bottom_text p{
-    font-size: var(--font-size2);
+    font-size: calc(1.7vh + .7vw);
     font-weight: 300;
-    line-height: var(--line-height);
+    line-height: var(--line-height2);
 }
 
-/* h1 and p */
-#header_bottom_text h1,
-#header_bottom_text p{
-    width: 40%;
-}
 
 /* Button */
 #header_bottom_text button{
@@ -161,7 +163,8 @@
     align-items: center;
 
     color: #fff;
-    font-size: var(--font-size2);
+    font-size: var(--font-size1);
+    font-weight: 300;
 
     margin-top: calc(6vh + 3vw);
     margin-left: calc(6vh + 3vw);
@@ -171,7 +174,25 @@
 }
 /* i */
 #header_bottom_text button img{
-    width: calc(2vh + 1vw);
+    width: calc(1.8vh + .8vw);
 
     margin-right: calc(.5vh + .2vw);
+}
+
+
+
+
+
+
+/* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Button */
+    #header_bottom_text button{
+        font-size: calc(1.9vh + .9vw);
+    }
+    /* i */
+    #header_bottom_text button img{
+        width: calc(2.5vh + 1vw);
+    }
 }

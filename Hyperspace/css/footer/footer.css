@@ -28,7 +28,7 @@
 /* p */
 #footer_copyright p{
     color: var(--white2);
-    font-size: calc(1vh + .5vw);
+    font-size: calc(1vh + .6vw);
     font-weight: 500;
 
     margin-bottom: calc(.5vh + .2vw);
@@ -40,4 +40,15 @@
 #footer_copyright p a{
     color: var(--white2);
     text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    /* p */
+    #footer_copyright p{
+        font-size: calc(1.2vh + .7vw);
+    }
 }

@@ -21,10 +21,12 @@
 
     /* HTML */
     --font-size1: calc(1.5vh + .5vw);
-    --font-size2: calc(1.8vh + .5vw);
+    --font-size2: calc(2vh + 1vw);
     --font-size3: calc(3vh + 1vw);
+    --font-size4: calc(3.4vh + 1.4vw);
 
     --line-height: calc(2.3vh + .8vw);
+    --line-height2: calc(2.7vh + 1vw);
 
     --border-radius1: calc(1.2vh + .5vw);
 
@@ -34,4 +36,5 @@
     --padding-vertical: calc(4.5vh + 2vw);
     --padding-vertical2: calc(8vh + 2.5vw);
     --padding-horizontal: calc(10vh + 5vw);
+    --padding-horizontal2: calc(15vh + 7vw);
 }

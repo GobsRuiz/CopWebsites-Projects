@@ -18,6 +18,7 @@
 /* h1 */
 #process_container h1{
     font-size: var(--font-size3);
+    font-weight: 500;
 
     margin-bottom: var(--margin-bottom2);
 }
@@ -44,7 +45,7 @@
 #process_container_ol li p{
     color: var(--white);
     font-size: var(--font-size1);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -58,4 +59,33 @@
     display: block;
 
     margin: 0 auto;
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    /* h1 */
+    #process_container h1{
+        font-size: var(--font-size4);
+    }
+
+    /* li */
+    /* h3 */
+    #process_container_ol li h3{
+        font-size: var(--font-size2);
+    }
+    /* p */
+    #process_container_ol li p{
+        font-size: calc(1.5vh + .8vw);
+    }
+
+
+
+    /* Image */
+    #process_representationImage{
+        width: 100%;
+    }
 }

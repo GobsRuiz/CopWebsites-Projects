@@ -8,9 +8,6 @@
 
 /* Social networks */
 #contact_socialNetworks{
-    width: 40%;
-    
-    margin: 0 auto;
     margin-bottom: calc(8vh + 3.5vw);
 }
  
@@ -18,7 +15,7 @@
 #contact_socialNetworks p{
     text-align: center;
 
-    font-size: calc(2.2vh + .5vw);
+    font-size: var(--font-size2);
     font-weight: 300;
 
     margin-bottom: calc(1.5vh + .5vw);
@@ -27,15 +24,16 @@
 /* Social networks images */
 #contact_socialNetworks_images{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: calc(4vh + 1.5vw);
+    width: calc(3.8vh + 1.8vw);
 
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: 50%;
 
+    margin: 0 calc(1vh + .5vw);
     padding: calc(3vh + 1.5vw);
     transition: .25s border;
 }#contact_socialNetworks_images a:hover{
@@ -45,8 +43,6 @@
 #contact_socialNetworks_images a img{
     width: 100%;
     display: block;
-
-    margin: 0 auto;
 }
  
  
@@ -57,13 +53,14 @@
 #contact_contact{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
     /* padding: 0 calc(1.5vh + .5vw); */
 }
  
- /* p */
+/* p */
 #contact_contact p{
-    font-size: calc(3.2vh + 1.1vw);
+    font-size: calc(3.2vh + 1.2vw);
 }
 #contact_contact p span{
     text-decoration: underline;
@@ -72,7 +69,7 @@
 /* button */
 #contact_contact button{
     color: #fff;
-    font-size: var(--font-size2);
+    font-size: var(--font-size1);
     font-weight: 300;
     background-color: var(--pink2);
     border-radius: calc(5vh + 2vw);
@@ -87,4 +84,18 @@
     box-shadow: 0 calc(.8vh + .4vw) calc(1.2vh + .5vw) 0 var(--pink2_rgba);
 
     top: calc(-.5vh - .2vw);
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    /* Social network images */
+    /* div */
+    #contact_socialNetworks_images a{
+        margin: 0 calc(1vh + .5vw);
+        padding: calc(4vh + 2vw);
+    }
 }
