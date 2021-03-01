@@ -74,7 +74,7 @@
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: calc(4.5vh + 1.25vw);
+    width: calc(4.5vh + .25vw);
 
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: 50%;
