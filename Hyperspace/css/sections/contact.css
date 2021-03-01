@@ -141,11 +141,14 @@
 
 
 /* Responsive */
+/* 1024 */
 @media screen and (min-width: 1024px){
+    /* Height */
+    /* 600 */
     @media screen and (min-height: 600) {
         /* div */
     #contact_socialNetworks_images a{
-        width: 4vh;
+        width: 1vh;
 
         border: calc(.1vh + .1vw) solid var(--pink2);
         border-radius: 50%;
