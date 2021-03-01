@@ -58,6 +58,7 @@
 
 
 /* Responsive */
+/* 1280 */
 @media screen and (min-width: 1280px) {
     .line{
         top: 28%;
@@ -65,14 +66,15 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+/* 1024 */
+/* @media screen and (min-width: 1024px) {
     .line{
         height: 233%;
 
         top: 32%;
         left: 14%;
     }
-}
+} */
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
