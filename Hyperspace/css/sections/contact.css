@@ -1,5 +1,5 @@
 #contact{
-    padding-bottom: calc(10vh + 2.5vw);
+    padding-bottom: 12vh;
 }
 
 
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    margin-bottom: calc(10vh + 2.5vw);
+    margin-bottom: 12vh;
     position: relative;
 }#contact_address::after{
     content: "";
@@ -38,7 +38,7 @@
 /* p */
 #contact_address p{
     color: #fff;
-    font-size: calc(2vh + .5vw);
+    font-size: 3vh;
 
 
     position: relative;
@@ -54,17 +54,17 @@
 
 /* Social networks */
 #contact_socialNetworks{
-    margin-bottom: calc(10vh + 2.5vw);
+    margin-bottom: 12vh;
 }
  
 /* p */
 #contact_socialNetworks p{
     text-align: center;
 
-    font-size: calc(2.8vh + .6vw);
+    font-size: 4vh;
     font-weight: 300;
 
-    margin-bottom: calc(2vh + .5vw);
+    margin-bottom: 4vh;
 }
  
 /* Social networks images */
@@ -74,13 +74,13 @@
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: calc(4.5vh + .25vw);
+    width: 6.5vh;
 
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: 50%;
 
-    margin: 0 calc(1.2vh + .3vw);
-    padding: calc(4.2vh + 1vw);
+    margin: 0 2vh;
+    padding: 6.5vh;
     transition: .25s border;
 }#contact_socialNetworks_images a:hover{
     border-color: #fff;
@@ -101,16 +101,16 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    padding: 0 calc(10vh + 3vw);
+    padding: 0 15vh;
 }
  
 /* p */
 #contact_contact p{
     flex: 1;
 
-    font-size: calc(4vh + 1vw);
+    font-size: 6vh;
 
-    padding-right: calc(2vh + .5vw);
+    padding-right: 2vh;
 }
 #contact_contact p span{
     text-decoration: underline;
@@ -119,13 +119,13 @@
 /* button */
 #contact_contact button{
     color: #fff;
-    font-size: calc(1.8vh + .4vw);
+    font-size: 3vh;
     font-weight: 300;
     background-color: var(--pink2);
-    border-radius: var(--border-radius3);
+    border-radius: 10vh;
     
 
-    padding: calc(1.7vh + .35vw) calc(3.5vh + 1.25vw);
+    padding: 2.5vh 6vh;
     position: relative;
     top: 0;
     transition: top .25s, box-shadow .25s, background-color .25s;
