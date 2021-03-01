@@ -62,6 +62,38 @@
 
 
 /* Responsive */
+/* 1440 */
+@media screen and (max-width: 1440px) {
+    .line{
+        height: 218%;
+
+        top: 28%;
+        left: 16%;
+    }
+
+
+
+    /* Ball */
+    .line_ball{
+        left: -18.9%;
+    }
+
+    /* hr */
+    .line_hr{
+        left: -14%;
+    }
+
+    /* Fixing some differences */
+    /* About */
+    #about_container .line_ball{
+        left: -8.3%;
+    }
+    #about_container .line_hr{
+        left: -4%;
+    }
+}
+
+/* Responsive */
 /* 1366 */
 @media screen and (max-width: 1366px) {
     .line{
