@@ -4,8 +4,6 @@
     border: calc(.1vh) dotted #fff;
 
     position: absolute;
-    top: 32%;
-    left: 14%;
     z-index: 9;
 }
 
@@ -29,7 +27,7 @@
 
 /* hr */
 .line_hr{
-    width: calc(5vh + 2vw);
+    width: calc(3vh + 2vw);
     height: calc(.1vh + .1vw);
     
     background-color: var(--pink2);
@@ -65,7 +63,7 @@
 /* 1440 */
 @media screen and (max-width: 1440px) {
     .line{
-        height: 218%;
+        height: 228%;
 
         top: 28%;
         left: 16.5%;
@@ -75,7 +73,7 @@
 
     /* Ball */
     .line_ball{
-        left: -18.9%;
+        left: -17.9%;
     }
 
     /* hr */
@@ -86,10 +84,10 @@
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
-        left: -8.3%;
+        left: -19%;
     }
     #about_container .line_hr{
-        left: -4%;
+        left: -14.5%;
     }
 }
 
@@ -105,10 +103,20 @@
 
 
 
+    /* Ball */
+    .line_ball{
+        left: -20.9%;
+    }
+
+    /* hr */
+    .line_hr{
+        left: -17%;
+    }
+
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
-        left: -12.2%;
+        left: -12.6%;
     }
     #about_container .line_hr{
         left: -9%;
@@ -118,7 +126,7 @@
 /* 1280 */
 @media screen and (max-width: 1280px) {
     .line{
-        height: 213.2%;
+        height: 223.2%;
 
         top: 33%;
         left: 9%;
@@ -152,16 +160,30 @@
 @media screen and (max-width: 1024px) {
     .line{
         height: 251%;
+
+        top: 31%;
+        left: 10%;
     }
 
+
+
+    /* Ball */
+    .line_ball{
+        left: -31%;
+    }
+
+    /* hr */
+    .line_hr{
+        left: -25.5%;
+    }
 
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
-        left: -18.5%;
+        left: -23.7%;
     }
     #about_container .line_hr{
-        left: -14%;
+        left: -19%;
     }
 }
 

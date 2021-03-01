@@ -43,6 +43,20 @@
 
 
 /* Responsive */
+/* 1440 */
+@media screen and (max-width: 1440px) {
+    #about_container{
+        width: 40%;
+    }
+}
+
+/* 1366 */
+@media screen and (max-width: 1366px) {
+    #about_container{
+        width: 48%;
+    }
+}
+
 /* 1024 */
 @media screen and (max-width: 1024px) {
     /* Container */
