@@ -91,11 +91,12 @@
 
 
 /* Responsive */
-@media screen and (max-width: 991px) {
+/* 1024 */
+@media screen and (max-width: 1024px) {
     /* Social network images */
     /* div */
     #contact_socialNetworks_images a{
-        margin: 0 calc(1vh + .5vw);
-        padding: calc(4vh + 2vw);
+        margin: 0 10px;
+        padding: 45px;
     }
 }

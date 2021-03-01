@@ -164,23 +164,17 @@
 
 
 /* Responsive */
-@media screen and (max-width: 991px) {
-    /* Content */
-    #services_content{
-        padding: var(--padding-vertical) var(--padding-horizontal2);
-    }
-
-
-
+/* 1024 */
+@media screen and (max-width: 1024px) {
     /* h1 */
     #services h1{
-        font-size: var(--font-size4);
+        font-size: 30px;
     }
 
     /* p */
     #services p{
-        font-size: calc(1.8vh + .8vw);
-        line-height: var(--line-height2);
+        font-size: 16px;
+        line-height: 22px;
 
         margin-bottom: var(--margin-bottom2);
     }
@@ -189,9 +183,7 @@
 
     /* Cards */
     #services  .services_cards_card{
-        max-width: 45%;
-
-        padding: calc(4vh + 2vw) calc(2.5vh + 1vw);
+        padding: 40px 20px;
     }
 
     /* img */
@@ -201,12 +193,27 @@
 
     /* h3 */
     #services  .services_cards_card h3{
-        font-size: calc(2.5vh + 1vw);
+        font-size: 22px;
     }
 
     /* p */
     #services .services_cards_card p {
-        font-size: calc(1.8vh + .7vw);
+        font-size: 16px;
+    }
+}
+
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Content */
+    #services_content{
+        padding: var(--padding-vertical) var(--padding-horizontal2);
+    }
+
+
+    
+    /* Cards */
+    #services  .services_cards_card{
+        max-width: 45%;
     }
 
 
@@ -214,8 +221,8 @@
     /* Partner */
     /* button */
     #services #services_partner button{
-        font-size: calc(1.7vh + .7vw);
+        font-size: 16px;
 
-        padding: calc(2vh + 1vw) calc(2.8vh + 1.2vw);
+        padding: 20px;
     }
 }

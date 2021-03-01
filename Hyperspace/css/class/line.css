@@ -60,10 +60,10 @@
 
 
 /* Responsive */
-/* 1080 */
-@media screen and (max-width: 1079px) {
+/* 1024 */
+@media screen and (max-width: 1024px) {
     .line{
-        height: 226.5%;
+        height: 251%;
     }
 }
 

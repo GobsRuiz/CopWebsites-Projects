@@ -185,14 +185,43 @@
 
 
 /* Responsive */
-/* 991 */
-@media screen and (max-width: 991px) {
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    /* Header top */
+    /* Menu */
+    /* A */
+    #header_top_menu a{
+        font-size: 16px;
+    }
+
+    /* Languages */
+    /* A */
+    #header_top_languages a{
+        font-size: 14px;
+    }
+
+
+
+    /* Header bottom */
+    /* Welcome paragraph */
+    #header_bottom_welcomeParagraph{
+        font-size: 15px;
+    }
+
+
+    /* Text */
+    /* p */
+    #header_bottom_text p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
     /* Button */
     #header_bottom_text button{
-        font-size: calc(1.9vh + .9vw);
+        font-size: 16px;
     }
     /* i */
     #header_bottom_text button img{
-        width: calc(2.5vh + 1vw);
+        width: 22px;
     }
 }

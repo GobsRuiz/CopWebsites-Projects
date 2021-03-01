@@ -15,7 +15,7 @@
     border-radius: var(--border-radius1);
     
     margin: 0 auto;
-    padding: var(--padding-vertical) calc(4vh + 1.5vw);
+    padding: var(--padding-vertical) calc(5vh + 2.5vw);
     position: relative;
 }
 
@@ -43,17 +43,18 @@
 
 
 /* Responsive */
-@media screen and (max-width: 991px) {
+/* 1024 */
+@media screen and (max-width: 1024px) {
     /* h1 */
     #about_container h1{
-        font-size: var(--font-size4);
+        font-size: 30px;
     }
 
     #about_container_paragraphs p{
-        font-size: calc(1.5vh + .8vw);
+        font-size: 16px;
     
         line-height: var(--line-height2);
 
-        margin-bottom: calc(1.8vh + .6vw);
+        margin-bottom: 15px;
     }
 }
