@@ -20,22 +20,22 @@
 
 
     /* HTML */
-    --font-size1: calc(1.5vh + .5vw);
-    --font-size2: calc(2vh + 1vw);
-    --font-size3: calc(3vh + 1vw);
-    --font-size4: calc(3.4vh + 1.4vw);
+    --font-size1: calc(.4vh + 1.1vw);
+    --font-size2: calc(.5vh + 1.25vw);
+    --font-size3: calc(.5vh + 1.5vw);
+    --font-size4: calc(.5vh + 2.2vw);
 
-    --line-height: calc(2.3vh + .8vw);
+    --line-height: calc(.5vh + 1.6vw);
     --line-height2: calc(2.7vh + 1vw);
 
-    --border-radius1: calc(1.2vh + .5vw);
+    --border-radius1: 15px;
     --border-radius3: calc(5vh + 2vw);
 
-    --margin-bottom1: calc(2.2vh + 1vw);
-    --margin-bottom2: calc(4vh + 2vw);
-    --margin-bottom3: calc(6vh + 3vw);
+    --margin-bottom1: calc(.5vh + 1.5vw);
+    --margin-bottom2: calc(.5vh + 2vw);
+    --margin-bottom3: calc(1vh + 3vw);
 
-    --padding-vertical: calc(4.5vh + 2vw);
+    --padding-vertical: calc(1.5vh + 4vw);
     --padding-vertical2: calc(8vh + 2.5vw);
     --padding-horizontal: calc(10vh + 5vw);
     --padding-horizontal2: calc(15vh + 7vw);

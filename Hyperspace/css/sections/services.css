@@ -15,7 +15,7 @@
 
 /* h1 */
 #services h1{
-    font-size: var(--font-size3);
+    font-size: var(--font-size4);
     font-weight: 500;
 
     margin-bottom: var(--margin-bottom1);
@@ -51,25 +51,25 @@
     justify-content: space-between;
     text-align: center;
 
-    box-shadow: 0 calc(2vh + .8vw) calc(2.5vh + 1vw) calc(.1vh + .1vw) rgba(0, 0, 0, 0.090);
+    box-shadow: 0 16px 18px 4px rgba(0, 0, 0, .080);
     border-radius: var(--border-radius1);
     
     box-sizing: border-box;
-    margin-bottom: var(--margin-bottom2);
-    padding: calc(3vh + 1vw) calc(2vh + .8vw);
+    margin-bottom: var(--margin-bottom3);
+    padding: calc(1vh + 2.5vw) calc(.5vh + 1vw);
 }
 /* img */
 #services .services_cards_card img{
-    width: 45%;
+    width: 30%;
 
-    margin-bottom: calc(.8vh + .2vw);
+    margin-bottom: calc(.2vh + .5vw);
 }
 /* h3 */
 #services  .services_cards_card h3{
-    font-size: var(--font-size2);
+    font-size: var(--font-size3);
     font-weight: 500;
 
-    margin-bottom: calc(.8vh + .2vw);
+    margin-bottom: calc(.2vh + .5vw);
 }
 /* p */
 #services .services_cards_card p {
@@ -96,7 +96,7 @@
     width: 70%;
 
     box-sizing: border-box;
-    padding-right: calc(4vh + 2vw);
+    padding-right: calc(.5vh + 1vw);
 }
 
 
@@ -105,10 +105,10 @@
     color: var(--pink2);
     font-size: var(--font-size1);
     font-weight: 300;
-    border: calc(.1vh + .1vw) solid var(--pink2);
-    border-radius: calc(5vh + 2vw);
+    border: 1px solid var(--pink2);
+    border-radius: 30px;
 
-    padding: calc(1.2vh + .5vw) calc(2.8vh + 1.2vw);
+    padding: calc(.5vh + 1vw) calc(1vh + 2vw);
     transition: background-color .25s;
 }#services #services_partner button:hover{
     color: #fff;
