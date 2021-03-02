@@ -144,6 +144,18 @@
 /* Height */
 /* 768 */
 @media screen and (min-height: 768px){
+    #contact{
+        padding-bottom: 15vh;
+    }
+    
+    /* Social networks */
+    /* p */
+    #contact_socialNetworks p{
+        font-size: 3vh;
+
+        margin-bottom: 3vh;
+    }
+
     /* Social networks images */
     /* div */
     #contact_socialNetworks_images a{
@@ -156,12 +168,37 @@
 
 /* 900 */
 @media screen and (min-height: 900px){
+    #contact{
+        padding-bottom: 12vh;
+    }
+
+
+
+    /* Address */
+    #contact_address{
+        margin-bottom: 12vh;
+    }
+
+
+    
+    /* Social networks */
+    #contact_socialNetworks{
+        margin-bottom: 12vh;
+    }
+
+    /* p */
+    #contact_socialNetworks p{
+        font-size: 3vh;
+
+        margin-bottom: 3vh;
+    }
+
     /* Social networks images */
     /* div */
     #contact_socialNetworks_images a{
         width: 5vh;
 
         margin: 0 1.5vh;
-        padding: 4.5vh;
+        padding: 5vh;
     }
 }
