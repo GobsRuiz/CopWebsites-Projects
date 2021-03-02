@@ -75,13 +75,13 @@
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: calc(1vh + 2.5vw);
+    width: calc(1.2vh + 2.5vw);
 
     border: 1px solid var(--pink2);
     border-radius: 50%;
 
     margin: 0 calc(.2vh + .5vw);
-    padding: calc(1vh + 2.6vw);
+    padding: calc(1.4vh + 2.6vw);
     transition: .25s border;
 }#contact_socialNetworks_images a:hover{
     border-color: #fff;
@@ -123,7 +123,7 @@
     font-size: var(--font-size1);
     font-weight: 300;
     background-color: var(--pink2);
-    border-radius: 40px;
+    border-radius: 10vh;
     
 
     padding: calc(.5vh + 1vw) calc(1vh + 2.5vw);
