@@ -1,5 +1,5 @@
 #contact{
-    padding-bottom: 15vh;
+    padding-bottom: calc(2vh + 5vw);
 }
 
 
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    margin-bottom: 15vh;
+    margin-bottom: calc(2vh + 5vw);
     position: relative;
 }#contact_address::after{
     content: "";
@@ -54,17 +54,17 @@
 
 /* Social networks */
 #contact_socialNetworks{
-    margin-bottom: 15vh;
+    margin-bottom: calc(2vh + 5vw);
 }
  
 /* p */
 #contact_socialNetworks p{
     text-align: center;
 
-    font-size: 3.5vh;
+    font-size: calc(.5vw + 1vw);
     font-weight: 300;
 
-    margin-bottom: 4vh;
+    margin-bottom: calc(.5vh + 1vw);
 }
  
 /* Social networks images */
@@ -74,13 +74,13 @@
 }
 /* div */
 #contact_socialNetworks_images a{
-    width: 6.5vh;
+    width: calc(1vh + 2.5vw);
 
     border: calc(.1vh + .1vw) solid var(--pink2);
     border-radius: 50%;
 
-    margin: 0 2vh;
-    padding: 6.5vh;
+    margin: 0 calc(.2vh + .5vw);
+    padding: calc(1vh + 2.6vw);
     transition: .25s border;
 }#contact_socialNetworks_images a:hover{
     border-color: #fff;
@@ -101,16 +101,16 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    padding: 0 15vh;
+    padding: 0 calc(2.2vh + 6vw);
 }
  
 /* p */
 #contact_contact p{
     flex: 1;
 
-    font-size: 6vh;
+    font-size: calc(.8vh + 2.2vw);
 
-    padding-right: 2vh;
+    margin-right: calc(.5vh + .8vw);
 }
 #contact_contact p span{
     text-decoration: underline;
@@ -119,13 +119,13 @@
 /* button */
 #contact_contact button{
     color: #fff;
-    font-size: 3vh;
+    font-size: calc(.5vh + 1vw);
     font-weight: 300;
     background-color: var(--pink2);
     border-radius: 10vh;
     
 
-    padding: 2.5vh 6vh;
+    padding: calc(.5vh + 1vw) calc(1vh + 2.5vw);
     position: relative;
     top: 0;
     transition: top .25s, box-shadow .25s, background-color .25s;
@@ -133,7 +133,7 @@
     background-color: var(--pink3);
     box-shadow: 0 calc(.8vh + .4vw) calc(1.2vh + .5vw) 0 var(--pink2_rgba);
 
-    top: calc(-.5vh - .2vw);
+    top: calc(-.2vh - .5vw);
 }
 
 
@@ -141,92 +141,3 @@
 
 
 /* Responsive */
-/* Height */
-/* 768 */
-@media screen and (min-height: 768px){
-    #contact{
-        padding-bottom: 0vh;
-    }
-    
-
-
-    /* Address */
-    #contact_address{
-        margin-bottom: 13vh;
-    }
-
-
-    
-    /* Social networks */
-    #contact_socialNetworks{
-        margin-bottom: 13vh;
-    }
-
-    /* p */
-    #contact_socialNetworks p{
-        font-size: 2.8vh;
-
-        margin-bottom: 2.5vh;
-    }
-
-    /* Social networks images */
-    /* div */
-    #contact_socialNetworks_images a{
-        width: 6vh;
-
-        margin: 0 1.5vh;
-        padding: 5.5vh;
-    }
-
-
-
-    /* Contact */
-    /* p */
-    #contact_contact p{
-        font-size: 4vh;
-    }
-
-    /* button */
-    #contact_contact button{
-        font-size: 2.2vh;
-        
-        padding: 2.5vh 5vh;
-    }
-}
-
-/* 900 */
-@media screen and (min-height: 900px){
-    #contact{
-        padding-bottom: 12vh;
-    }
-
-
-
-    /* Address */
-    #contact_address{
-        margin-bottom: 12vh;
-    }
-
-
-    
-    /* Social networks */
-    #contact_socialNetworks{
-        margin-bottom: 12vh;
-    }
-
-    /* p */
-    #contact_socialNetworks p{
-        font-size: 2.5vh;
-
-        margin-bottom: 2.5vh;
-    }
-
-    /* Social networks images */
-    /* div */
-    #contact_socialNetworks_images a{
-        width: 5vh;
-
-        margin: 0 1.5vh;
-        padding: 5vh;
-    }
-}
