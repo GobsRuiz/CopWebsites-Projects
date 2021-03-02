@@ -7,7 +7,7 @@ function loadPage() {
         let headerBottom_topToBottom = document.querySelectorAll("#header_bottom .topToBottom");
 
         // Chat
-        let chatIcon = document.getElementById("chat_icon_chat");
+        let chatIcon = document.getElementById("chat_icon");
         let chatMessage = document.getElementById("chat_message");
 
 
