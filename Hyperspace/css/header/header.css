@@ -185,3 +185,44 @@
 
 
 /* Responsive */
+/* 770 */
+@media screen and (max-width: 770px) {
+    /* Top */
+    #header_top{
+        flex-direction: column;
+
+        padding: calc(2vh + 4vw)  0;
+    }
+
+
+    /* Logo */
+    #header_top_logo{
+        margin-bottom: calc(.5vh + .5vw);
+    }
+
+
+    /* Left content */
+    #header_top_leftContent{
+        align-items: center;
+    }
+
+    /* Languages */
+    #header_top_languages{
+        margin-bottom: 0;
+    }
+
+
+
+    /* Bottom */
+    #header_bottom{
+        padding-top: calc(7vh + 15vw);
+    }
+
+    /* Text */
+    /* Button */
+    #header_bottom_text button{
+        margin-top: calc(5vh + 9vw);
+        margin-left: calc(.5vh + 1vw);
+    }
+
+}

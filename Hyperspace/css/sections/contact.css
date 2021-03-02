@@ -96,7 +96,7 @@
  
  
  
- /* Contact */
+/* Contact */
 #contact_contact{
     display: flex;
     justify-content: space-between;
@@ -142,3 +142,37 @@
 
 
 /* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Address */
+    #contact_address{
+        height: 30vh;
+    }
+
+    /* p */
+    #contact_address p{
+        font-size: var(--font-size2);
+    }
+}
+
+/* 770 */
+@media screen and (max-width: 770px) {
+    /* Contact */
+    #contact_contact{
+        padding: 0 calc(6vh + 15vw);
+    }
+
+    /* p */
+    #contact_contact p{
+        max-width: 50%;
+    }
+
+    /* button */
+    #contact_contact button{
+        max-width: 30%;
+
+        line-height: var(--line-height);
+
+        padding: calc(.5vh + 1.2vw) calc(1vh + 2.5vw);
+    }
+}

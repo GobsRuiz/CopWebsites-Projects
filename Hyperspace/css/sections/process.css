@@ -72,4 +72,10 @@
 
 
 /* Responsive */
-/* 1024 */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Image */
+    #process_representationImage{
+        width: 100%;
+    }
+}
