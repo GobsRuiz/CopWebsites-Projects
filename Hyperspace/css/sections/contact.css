@@ -145,7 +145,7 @@
 /* 768 */
 @media screen and (min-height: 768px){
     #contact{
-        padding-bottom: 13vh;
+        padding-bottom: 0vh;
     }
     
 
@@ -164,7 +164,7 @@
 
     /* p */
     #contact_socialNetworks p{
-        font-size: 2.5vh;
+        font-size: 2.8vh;
 
         margin-bottom: 2.5vh;
     }
@@ -183,14 +183,14 @@
     /* Contact */
     /* p */
     #contact_contact p{
-        font-size: 5vh;
+        font-size: 4vh;
     }
 
     /* button */
     #contact_contact button{
-        font-size: 2.5vh;
+        font-size: 2.2vh;
         
-        padding: 2.5vh 6vh;
+        padding: 2.5vh 5vh;
     }
 }
 
