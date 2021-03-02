@@ -1,5 +1,5 @@
 #contact{
-    padding-bottom: 12vh;
+    padding-bottom: 15vh;
 }
 
 
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    margin-bottom: 12vh;
+    margin-bottom: 15vh;
     position: relative;
 }#contact_address::after{
     content: "";
@@ -54,14 +54,14 @@
 
 /* Social networks */
 #contact_socialNetworks{
-    margin-bottom: 12vh;
+    margin-bottom: 15vh;
 }
  
 /* p */
 #contact_socialNetworks p{
     text-align: center;
 
-    font-size: 4vh;
+    font-size: 3.5vh;
     font-weight: 300;
 
     margin-bottom: 4vh;
@@ -141,16 +141,20 @@
 
 
 /* Responsive */
-/* 1024 */
-@media screen and (min-width: 1024px){
-    /* Height */
-    /* 600 */
-    @media screen and (min-height: 600px) {
-        /* div */
+/* Height */
+/* 768 */
+@media screen and (min-height: 768px){
+    /* Social networks images */
+    /* div */
     #contact_socialNetworks_images a{
-        width: 4vh;
+        width: 6.5vh;
 
-        padding: 5vh;
+        margin: 0 2vh;
+        padding: 6.5vh;
     }
-    }
+}
+
+/* 900 */
+@media screen and (min-height: 900px){
+
 }
