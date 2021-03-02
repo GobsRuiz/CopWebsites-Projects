@@ -147,14 +147,21 @@
     /* Social networks images */
     /* div */
     #contact_socialNetworks_images a{
-        width: 6.5vh;
+        width: 6vh;
 
-        margin: 0 2vh;
-        padding: 6.5vh;
+        margin: 0 1.5vh;
+        padding: 5.5vh;
     }
 }
 
 /* 900 */
 @media screen and (min-height: 900px){
+    /* Social networks images */
+    /* div */
+    #contact_socialNetworks_images a{
+        width: 5vh;
 
+        margin: 0 1.5vh;
+        padding: 4.5vh;
+    }
 }
