@@ -1,5 +1,5 @@
 #process{
-    padding-top: calc(3vh + 1.5vw);
+    padding-top: var(--padding-vertical);
 }
 
 
@@ -17,10 +17,10 @@
 
 /* h1 */
 #process_container h1{
-    font-size: var(--font-size3);
+    font-size: var(--font-size4);
     font-weight: 500;
 
-    margin-bottom: var(--margin-bottom2);
+    margin-bottom: var(--margin-bottom3);
 }
 
 
@@ -28,17 +28,20 @@
 #process_container_ol{
     color: #fff;
     list-style-type: decimal;
+
+    position: relative;
+    left: 3%;
 }
 /* li */
 #process_container ol li{
-    margin-bottom: var(--margin-bottom2);
+    margin-bottom: var(--margin-bottom3);
 }
 /* h3 */
 #process_container_ol li h3{
+    font-size: var(--font-size2);
     font-weight: 300;
-    font-size: calc(1.9vh + .6vw);
 
-    margin-bottom: calc(.6vh + .2vw);
+    margin-bottom: calc(.5vh + .2vw);
 }
 /* p */
 #process_container_ol li p{
@@ -70,27 +73,3 @@
 
 /* Responsive */
 /* 1024 */
-@media screen and (max-width: 1024px) {
-    /* h1 */
-    #process_container h1{
-        font-size: 30px;
-    }
-
-    /* li */
-    /* h3 */
-    #process_container_ol li h3{
-        font-size: 19px;
-    }
-    /* p */
-    #process_container_ol li p{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-
-
-    /* Image */
-    #process_representationImage{
-        width: 100%;
-    }
-}

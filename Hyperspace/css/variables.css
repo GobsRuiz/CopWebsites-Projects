@@ -20,7 +20,7 @@
 
 
     /* HTML */
-    --font-size1: calc(.4vh + 1.1vw);
+    --font-size1: calc(.5vh + 1vw);
     --font-size2: calc(.5vh + 1.25vw);
     --font-size3: calc(.5vh + 1.5vw);
     --font-size4: calc(.5vh + 2.2vw);
@@ -33,7 +33,7 @@
 
     --margin-bottom1: calc(.8vh + 1.5vw);
     --margin-bottom2: calc(.8vh + 1.8vw);
-    --margin-bottom3: calc(1vh + 3vw);
+    --margin-bottom3: calc(1.5vh + 3vw);
 
     --padding-vertical: calc(1.5vh + 4vw);
     --padding-vertical2: calc(8vh + 2.5vw);
