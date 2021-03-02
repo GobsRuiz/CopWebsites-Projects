@@ -34,7 +34,7 @@
     background: -webkit-linear-gradient(to bottom, #000000, #00000000);
     box-sizing: border-box;
 
-    padding: calc(2vh + 3vw) var(--padding-horizontal);
+    padding: calc(1vh + 3vw)  var(--padding-horizontal);
     position: fixed;
     z-index: 9999;
 }
@@ -43,7 +43,7 @@
 
 /* Logo */
 #header_top_logo img{
-    width: calc(7.5vh + 14vw);
+    width: calc(7vh + 15vw);
 }
 
 
@@ -63,7 +63,7 @@
 #header_top_menu a{
     font-size: var(--font-size1);
 
-    margin-right: 3vh;
+    margin-right: calc(.5vh + 1.4vw);
     position: relative;
 }#header_top_menu a:last-child{
     margin-right: 0;
@@ -72,14 +72,14 @@
 
 /* Languages */
 #header_top_languages{
-    margin-bottom: 2vh;
+    margin-bottom: calc(.5vh + 1vw);
 }
 
 /* A */
 #header_top_languages a{
     font-size: var(--font-size1);
 
-    margin-right: 1vh;
+    margin-right: calc(.1vh + .5vw);
     position: relative;
 }#header_top_languages a:last-child{
     margin-right: 0;
@@ -101,7 +101,7 @@
 
     position: absolute;
     left: 0;
-    bottom: -.4vh;
+    bottom: calc(-.2vh - .1vw);
     transform: scaleX(0);
     transform-origin: 0;
     transition: transform .25s;
@@ -116,9 +116,9 @@
 
 /* Bottom */
 #header_bottom{
-    padding-top: 22vh;
-    padding-bottom: 1vh;
-    padding-left: 30vh;
+    padding-top: calc(4vh + 9vw);
+    padding-bottom: calc(.3vh + .8vw);
+    padding-left: 14%;
     position: relative;
     z-index: 9;
 }
@@ -127,14 +127,12 @@
 /* Welcome paragraph */
 #header_bottom_welcomeParagraph{
     font-size: var(--font-size1);
-
-    margin-bottom: 1.5vh;
 }
 
 
 /* Text */
 #header_bottom_text{
-    padding-left: 4vh;
+    padding-left: calc(.5vh + 1.5vw);
 }
 
 /* h1 and p */
@@ -145,17 +143,17 @@
 
 /* h1 */
 #header_bottom_text h1{
-    font-size: calc(2vh + 3.5vw);
+    font-size: calc(1.5vh + 3.5vw);
     font-weight: 300;
 
-    margin-bottom: 1.5vh;
+    margin-bottom: calc(.3vh + .7vw);
 }
 
 /* p */
 #header_bottom_text p{
     font-size: var(--font-size2);
     font-weight: 300;
-    line-height: 5vh;
+    line-height: var(--line-height2);
 }
 
 
@@ -168,17 +166,17 @@
     font-size: var(--font-size1);
     font-weight: 300;
 
-    margin-top: 10vh;
-    margin-left: 15vh;
+    margin-top: calc(2.5vh + 5vw);
+    margin-left: calc(2.5vh + 6vw);
     transition: margin-left .25s;
 }#header_bottom_text button:hover{
-    margin-left: 15.5vh;
+    margin-left: calc(2.6vh + 6.4vw);
 }
 /* i */
 #header_bottom_text button img{
-    width: calc(.6vh + 1.4vw);
+    width: calc(.6vh + 1.3vw);
 
-    margin-right: 1vh;
+    margin-right: calc(.2vh + .3vw);
 }
 
 
