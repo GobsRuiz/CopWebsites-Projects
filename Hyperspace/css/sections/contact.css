@@ -145,15 +145,28 @@
 /* 768 */
 @media screen and (min-height: 768px){
     #contact{
-        padding-bottom: 15vh;
+        padding-bottom: 13vh;
     }
     
+
+
+    /* Address */
+    #contact_address{
+        margin-bottom: 13vh;
+    }
+
+
+    
     /* Social networks */
+    #contact_socialNetworks{
+        margin-bottom: 13vh;
+    }
+
     /* p */
     #contact_socialNetworks p{
-        font-size: 3vh;
+        font-size: 2.5vh;
 
-        margin-bottom: 3vh;
+        margin-bottom: 2.5vh;
     }
 
     /* Social networks images */
@@ -163,6 +176,21 @@
 
         margin: 0 1.5vh;
         padding: 5.5vh;
+    }
+
+
+
+    /* Contact */
+    /* p */
+    #contact_contact p{
+        font-size: 5vh;
+    }
+
+    /* button */
+    #contact_contact button{
+        font-size: 2.5vh;
+        
+        padding: 2.5vh 6vh;
     }
 }
 
@@ -188,9 +216,9 @@
 
     /* p */
     #contact_socialNetworks p{
-        font-size: 3vh;
+        font-size: 2.5vh;
 
-        margin-bottom: 3vh;
+        margin-bottom: 2.5vh;
     }
 
     /* Social networks images */
