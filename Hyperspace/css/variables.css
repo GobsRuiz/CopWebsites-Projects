@@ -26,14 +26,10 @@
     --font-size3: calc(.5vh + 1.5vw);
     --font-size4: calc(.5vh + 2.2vw);
 
-    --font-size1-responsive: calc(1.6vh + .6vw);
-
 
     /* Line height */
     --line-height: calc(.6vh + 1.6vw);
     --line-height2: calc(2.7vh + 1vw);
-
-    --line-height-responsive: calc(2.5vh + 1vw);
 
 
     /* Border radius */
