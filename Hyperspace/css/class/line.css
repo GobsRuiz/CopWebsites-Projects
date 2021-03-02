@@ -4,6 +4,8 @@
     border: calc(.1vh) dotted #fff;
 
     position: absolute;
+    top: 29%;
+    left: 13.5%;
     z-index: 9;
 }
 
@@ -21,7 +23,7 @@
 
     position: absolute;
     top: 5%;
-    left: -22.75%;
+    left: -26.75%;
     z-index: 9;
 }
 
@@ -34,7 +36,7 @@
 
     position: absolute;
     top: 10.4%;
-    left: -18%;
+    left: -21.75%;
 }
 
 
@@ -43,11 +45,11 @@
 /* About */
 #about_container .line_ball{
     top: 13.5%;
-    left: -12.9%;
+    left: -14.8%;
 }
 #about_container .line_hr{
-    top: 14.46%;
-    left: -9%;
+    top: 14.6%;
+    left: -9.8%;
 }
 
 /* Process */ 
@@ -60,148 +62,3 @@
 
 
 /* Responsive */
-/* 1440 */
-@media screen and (max-width: 1440px) {
-    .line{
-        height: 228%;
-
-        top: 28%;
-        left: 16.5%;
-    }
-
-
-
-    /* Ball */
-    .line_ball{
-        left: -17.9%;
-    }
-
-    /* hr */
-    .line_hr{
-        left: -14%;
-    }
-
-    /* Fixing some differences */
-    /* About */
-    #about_container .line_ball{
-        left: -19%;
-    }
-    #about_container .line_hr{
-        left: -14.5%;
-    }
-}
-
-/* Responsive */
-/* 1366 */
-@media screen and (max-width: 1366px) {
-    .line{
-        height: 215.2%;
-
-        top: 35%;
-        left: 15%;
-    }
-
-
-
-    /* Ball */
-    .line_ball{
-        left: -20.9%;
-    }
-
-    /* hr */
-    .line_hr{
-        left: -17%;
-    }
-
-    /* Fixing some differences */
-    /* About */
-    #about_container .line_ball{
-        left: -12.6%;
-    }
-    #about_container .line_hr{
-        left: -9%;
-    }
-}
-
-/* 1280 */
-@media screen and (max-width: 1280px) {
-    .line{
-        height: 217.2%;
-
-        top: 33%;
-        left: 9%;
-    }
-
-
-
-    /* Ball */
-    .line_ball{
-        top: 5%;
-        left: -32.75%;
-    }
-
-    /* hr */
-    .line_hr{
-        top: 10.4%;
-        left: -27%;
-    }
-
-    /* Fixing some differences */
-    /* About */
-    #about_container .line_ball{
-        left: -22.5%;
-    }
-    #about_container .line_hr{
-        left: -18%;
-    }
-}
-
-/* 1024 */
-@media screen and (max-width: 1024px) {
-    .line{
-        height: 204%;
-
-        top: 31%;
-        left: 10%;
-    }
-
-
-
-    /* Ball */
-    .line_ball{
-        left: -30.9%;
-    }
-
-    /* hr */
-    .line_hr{
-        left: -25.5%;
-    }
-
-    /* Fixing some differences */
-    /* About */
-    #about_container .line_ball{
-        left: -23.4%;
-    }
-    #about_container .line_hr{
-        left: -19%;
-    }
-}
-
-/* 991 */
-@media screen and (max-width: 991px) {
-    .line{
-        height: 246.5%;
-    }
-
-
-    
-    /* Ball */
-    .line_ball{
-        left: -22.85%;
-    }
-
-    /* About */
-    #about_container .line_ball{
-        left: -13.5%;
-    }
-}

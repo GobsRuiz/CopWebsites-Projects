@@ -34,7 +34,7 @@
     background: -webkit-linear-gradient(to bottom, #000000, #00000000);
     box-sizing: border-box;
 
-    padding: calc(6vh + 3vw) var(--padding-horizontal);
+    padding: calc(2vh + 3vw) var(--padding-horizontal);
     position: fixed;
     z-index: 9999;
 }
@@ -43,7 +43,7 @@
 
 /* Logo */
 #header_top_logo img{
-    width: calc(20vh + 10vw);
+    width: calc(7.5vh + 14vw);
 }
 
 
@@ -63,7 +63,7 @@
 #header_top_menu a{
     font-size: var(--font-size1);
 
-    margin-right: calc(2vh + .5vw);
+    margin-right: 3vh;
     position: relative;
 }#header_top_menu a:last-child{
     margin-right: 0;
@@ -72,14 +72,14 @@
 
 /* Languages */
 #header_top_languages{
-    margin-bottom: calc(1vh + .5vw);
+    margin-bottom: 2vh;
 }
 
 /* A */
 #header_top_languages a{
-    font-size: calc(1.2vh + .5vw);
+    font-size: var(--font-size1);
 
-    margin-right: calc(.4vh + .2vw);
+    margin-right: 1vh;
     position: relative;
 }#header_top_languages a:last-child{
     margin-right: 0;
@@ -92,7 +92,7 @@
 #header_top_languages a::after{
     content: "";
 
-    width: 0%;
+    width: 100%;
     height: calc(.1vh + .1vw);
 
     display: block;
@@ -101,11 +101,13 @@
 
     position: absolute;
     left: 0;
-    bottom: calc(-.3vh - .1vw);
-    transition: width .25s;
+    bottom: -.4vh;
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition: transform .25s;
 }#header_top_menu a:hover::after,
 #header_top_languages a:hover::after{
-    width: 100%;
+    transform: scaleZ(1);
 }
 
 
@@ -114,9 +116,9 @@
 
 /* Bottom */
 #header_bottom{
-    padding-top: calc(12vh + 6vw);
-    padding-bottom: calc(.8vh + .2vw);
-    padding-left: calc(15vh + 7vw);
+    padding-top: 22vh;
+    padding-bottom: 1vh;
+    padding-left: 30vh;
     position: relative;
     z-index: 9;
 }
@@ -126,13 +128,13 @@
 #header_bottom_welcomeParagraph{
     font-size: var(--font-size1);
 
-    margin-bottom: calc(.6vh + .3vw);
+    margin-bottom: 1.5vh;
 }
 
 
 /* Text */
 #header_bottom_text{
-    padding-left: calc(2.5vh + 1vw);
+    padding-left: 4vh;
 }
 
 /* h1 and p */
@@ -143,40 +145,40 @@
 
 /* h1 */
 #header_bottom_text h1{
-    font-size: calc(5vh + 2vw);
+    font-size: calc(2vh + 3.5vw);
     font-weight: 300;
 
-    margin-bottom: calc(1vh + .4vw);
+    margin-bottom: 1.5vh;
 }
 
 /* p */
 #header_bottom_text p{
-    font-size: calc(1.7vh + .7vw);
+    font-size: var(--font-size2);
     font-weight: 300;
-    line-height: var(--line-height2);
+    line-height: 5vh;
 }
 
 
 /* Button */
 #header_bottom_text button{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 
     color: #fff;
     font-size: var(--font-size1);
     font-weight: 300;
 
-    margin-top: calc(6vh + 3vw);
-    margin-left: calc(6vh + 3vw);
+    margin-top: 10vh;
+    margin-left: 15vh;
     transition: margin-left .25s;
 }#header_bottom_text button:hover{
-    margin-left: calc(6.5vh + 3.5vw);
+    margin-left: 15.5vh;
 }
 /* i */
 #header_bottom_text button img{
-    width: calc(1.8vh + .8vw);
+    width: calc(.6vh + 1.4vw);
 
-    margin-right: calc(.5vh + .2vw);
+    margin-right: 1vh;
 }
 
 
@@ -185,71 +187,3 @@
 
 
 /* Responsive */
-/* 1366 */
-@media screen and (max-width: 1366px) {
-    /* Header bottom */
-    #header_bottom{
-        padding-top: calc(16vh + 7vw);
-        padding-left: calc(14vh + 7vw);
-    }
-
-}
-
-/* 1280 */
-@media screen and (max-width: 1280px) {
-    /* Top */
-    #header_top{
-
-        padding: calc(6vh + 3vw) calc(6vh + 3vw);
-    }
-
-
-
-    /* Header bottom */
-    #header_bottom{
-        padding-top: calc(16vh + 7vw);
-        padding-left: calc(8vh + 4vw);
-    }
-
-}
-
-/* 1024 */
-@media screen and (max-width: 1024px) {
-    /* Header top */
-    /* Menu */
-    /* A */
-    #header_top_menu a{
-        font-size: 16px;
-    }
-
-    /* Languages */
-    /* A */
-    #header_top_languages a{
-        font-size: 14px;
-    }
-
-
-
-    /* Header bottom */
-    /* Welcome paragraph */
-    #header_bottom_welcomeParagraph{
-        font-size: 15px;
-    }
-
-
-    /* Text */
-    /* p */
-    #header_bottom_text p{
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    /* Button */
-    #header_bottom_text button{
-        font-size: 16px;
-    }
-    /* i */
-    #header_bottom_text button img{
-        width: 22px;
-    }
-}
