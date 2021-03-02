@@ -43,7 +43,7 @@
 }
 /* card */
 #services  .services_cards_card{
-    max-width: 30%;
+    width: 30%;
 
     display: flex;
     flex-direction: column;
@@ -122,3 +122,75 @@
 
 
 /* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    #services{
+        width: 70%;
+    }
+
+    /* h1 */
+    #services h1{
+        font-size: calc(3vh + 1.2vw);
+
+        margin-bottom: var(--margin-bottom2-responsive);
+    }
+
+    /* p */
+    #services p{
+        font-size: var(--font-size1-responsive);
+        line-height: var(--line-height-responsive);
+
+        margin-bottom: var(--margin-bottom2-responsive)
+    }
+
+
+
+
+    /* Cards */
+    #services  .services_cards_card{
+        width: 45%;
+
+        margin: 0 calc(.8vh + .4vw);
+        margin-bottom: var(--margin-bottom2-responsive);
+        padding: calc(4vh + 1.5vw) calc(1vh + .5vw);
+    }
+
+    /* img */
+    #services .services_cards_card img{
+        margin-bottom: calc(.2vh + .1vw);
+    }
+    /* h3 */
+    #services  .services_cards_card h3{
+        font-size: calc(2vh + .8vw);
+        font-weight: 500;
+
+        margin-bottom: calc(.7vh + .3vw);
+    }
+    /* p */
+    #services .services_cards_card p {
+        font-size: var(--font-size1-responsive);
+        line-height: var(--line-height-responsive);
+
+        margin-bottom: 0;
+    }
+
+
+
+
+    /* Partner */
+    /* p */
+    #services #services_partner p{
+        font-size: var(--font-size1-responsive);
+        line-height: var(--line-height-responsive);
+    }
+    /* button */
+    #services #services_partner button{
+        max-width: 25%;
+
+        font-size: 16px;
+        line-height: 25px;
+        box-sizing: border-box;
+
+        padding: calc(1.5vh + .5vw) calc(1vh + 2vw);
+    }
+}

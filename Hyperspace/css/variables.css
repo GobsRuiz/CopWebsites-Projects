@@ -20,23 +20,39 @@
 
 
     /* HTML */
-    --font-size1: calc(.5vh + 1vw);
-    --font-size2: calc(.5vh + 1.25vw);
+    /* Font size */
+    --font-size1: calc(.6vh + .9vw);
+    --font-size2: calc(.7vh + 1.2vw);
     --font-size3: calc(.5vh + 1.5vw);
     --font-size4: calc(.5vh + 2.2vw);
 
+    --font-size1-responsive: calc(1.6vh + .6vw);
+
+
+    /* Line height */
     --line-height: calc(.6vh + 1.6vw);
     --line-height2: calc(2.7vh + 1vw);
 
+    --line-height-responsive: calc(2.5vh + 1vw);
+
+
+    /* Border radius */
     --border-radius1: 3vh;
     --border-radius3: calc(5vh + 2vw);
 
+
+    /* Margin bottom */
     --margin-bottom1: calc(.8vh + 1.5vw);
     --margin-bottom2: calc(.8vh + 1.8vw);
     --margin-bottom3: calc(1.5vh + 3vw);
 
+    --margin-bottom2-responsive: calc(2vh + 1vw);
+
+
+    /* Padding */
     --padding-vertical: calc(1.5vh + 4vw);
     --padding-vertical2: calc(8vh + 2.5vw);
     --padding-horizontal: calc(10vh + 5vw);
     --padding-horizontal2: calc(15vh + 7vw);
+
 }

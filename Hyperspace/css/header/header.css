@@ -43,7 +43,7 @@
 
 /* Logo */
 #header_top_logo img{
-    width: calc(7vh + 15vw);
+    width: calc(8vh + 14vw);
 }
 
 
@@ -143,7 +143,7 @@
 
 /* h1 */
 #header_bottom_text h1{
-    font-size: calc(1.5vh + 3.5vw);
+    font-size: calc(1.8vh + 3vw);
     font-weight: 300;
 
     margin-bottom: calc(.3vh + .7vw);
