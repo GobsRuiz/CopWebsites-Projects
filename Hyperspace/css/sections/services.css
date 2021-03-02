@@ -130,14 +130,14 @@
 
     /* h1 */
     #services h1{
-        font-size: calc(1.5vh + 2.5vw);
+        font-size: calc(1vh + 2.5vw);
 
         margin-bottom: var(--margin-bottom2-responsive);
     }
 
     /* p */
     #services p{
-        font-size: calc(.8vh + 1.5vw);
+        font-size: calc(.6vh + 1.7vw);
         line-height: var(--line-height2);
 
         margin-bottom: var(--margin-bottom2-responsive)
