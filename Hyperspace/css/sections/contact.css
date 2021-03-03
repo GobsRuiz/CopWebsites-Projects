@@ -14,26 +14,28 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url("../../images/sections/services/banner.png");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     position: relative;
-}#contact_address::after{
+}#contact_address::after,
+#contact_address::before{
     content: "";
 
     width: 100%;
     height: 100%;
 
-    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-
     position: absolute;
     top: 0;
     left: 0;
+}#contact_address::after{
+    background-image: url("../../images/sections/services/banner.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}#contact_address::before{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    z-index: 9;
 }
+
 /* p */
 #contact_address p{
     color: #fff;
