@@ -1,0 +1,59 @@
+.line{
+    height: 88rem;
+
+    border: .01rem dotted #fff;
+
+    position: absolute;
+    top: 11rem;
+    left: 11.2rem;
+    z-index: 9;
+}
+
+
+
+/* Ball */
+.line_ball{
+    width: .5rem;
+    height: .5rem;
+    
+    display: inline-block;
+
+    border: .01rem solid #fff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: -11.25rem;
+    z-index: 9;
+}
+
+/* hr */
+.line_hr{
+    width: 2.8rem;
+    height: .12rem;
+    
+    background-color: var(--pink2);
+
+    position: absolute;
+    top: .25rem;
+    left: -9.5rem;
+}
+
+
+
+/* Fixing some differences */
+/* About */
+#about_container .line_ball{
+    top: 0;
+    left: -7.05rem;
+}
+#about_container .line_hr{
+    left: -5.55rem;
+}
+
+
+
+
+
+
+/* Responsive */
