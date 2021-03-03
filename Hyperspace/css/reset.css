@@ -7,6 +7,39 @@ html{
     font-size: 16px;
 }
 
+
+
+/* Tags */
+a, p, h1, h2, h3, h4, h5, h6, input, span, textarea, button{
+    /* text-transform: initial; */
+    font-size: var(--font-size2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+p, button{
+    line-height: var(--line-height1)
+}
+
+hr, button, input, textarea{
+    border: 0;
+}
+
+input, textarea{
+    outline: 0;
+}
+
+
+
+/* Class */
 .container{
     min-width: 240px;
     max-width: 1440px;
@@ -14,11 +47,7 @@ html{
     margin: 0 auto;
 }
 
-a, p, h1, h2, h3, h4, h5, h6, input, span, textarea, button{
-    /* text-transform: initial; */
-    font-family: 'Montserrat', sans-serif;
-}
-
+/* Text and background color */
 .section_black{
     background-color: var(--black);
 }
@@ -32,20 +61,3 @@ a, p, h1, h2, h3, h4, h5, h6, input, span, textarea, button{
     color: var(--black);
 }
 
-a{
-    text-transform: capitalize;
-    text-decoration: none;
-}
-
-hr, button, input, textarea{
-    border: 0;
-}
-
-button{
-    cursor: pointer;
-    background-color: transparent;
-}
-
-input, textarea{
-    outline: 0;
-}

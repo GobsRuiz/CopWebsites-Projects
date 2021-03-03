@@ -1,5 +1,5 @@
 #footer{
-    padding: var(--padding-vertical) calc(2vh + 5vw);
+    padding: var(--padding1) var(--padding2);
 }
 
 
@@ -9,11 +9,11 @@
 /* hr */
 #footer hr{
     width: 100%;
-    height: calc(.1vh + .1vw);
+    height: .1rem;
 
     background-color: var(--pink2);
 
-    margin-bottom: var(--margin-bottom1);
+    margin-bottom: var(--margin2);
 }
 
 
@@ -28,10 +28,8 @@
 /* p */
 #footer_copyright p{
     color: var(--white2);
-    font-size: calc(.3vh + 1vw);
+    font-size: var(--font-size1);
     font-weight: 500;
-
-    margin-bottom: calc(.1vh + .5vw);
 }#footer_copyright p:last-child{
     margin-bottom: 0;
 }
@@ -47,6 +45,7 @@
 
 
 /* Responsive */
+/* 991 */
 @media screen and (max-width: 991px) {
     
 }

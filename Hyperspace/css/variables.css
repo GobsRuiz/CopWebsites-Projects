@@ -26,6 +26,7 @@
         --font-size3: 1.2rem;
         --font-size4: 1.5rem;
         --font-size5: 2rem;
+        --font-size6: 2.3rem;
 
         /* Line height */
         --line-height1: 1.6rem;
@@ -33,6 +34,7 @@
 
         /* Border radius */
         --border-radius1: 1rem;
+        --border-radius2: 30rem;
 
         /* Margin */
         --margin1: .8rem;
@@ -44,4 +46,6 @@
 
         /* Padding */
         --padding1: 3rem;
+        --padding2: 6rem;
+        --padding3: 8rem;
 }

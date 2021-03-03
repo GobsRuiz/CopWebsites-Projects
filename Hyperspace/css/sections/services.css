@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 #services_content{
-    padding: var(--padding-vertical) 0;
+    padding: var(--padding1) 0;
 }
 
 
@@ -15,20 +15,18 @@
 
 /* h1 */
 #services h1{
-    font-size: var(--font-size4);
+    font-size: var(--font-size5);
     font-weight: 500;
 
-    margin-bottom: var(--margin-bottom1);
+    margin-bottom: var(--margin2);
 }
 
 
 /* p */
 #services p{
-    font-size: var(--font-size1);
     font-weight: 300;
-    line-height: var(--line-height);
 
-    margin-bottom: var(--margin-bottom2);
+    margin-bottom: var(--margin4);
 }
 
 
@@ -43,7 +41,7 @@
 }
 /* card */
 #services  .services_cards_card{
-    width: 30%;
+    width: 28%;
 
     display: flex;
     flex-direction: column;
@@ -53,28 +51,27 @@
 
     box-shadow: 0 16px 18px 4px rgba(0, 0, 0, .080);
     border-radius: var(--border-radius1);
-    
     box-sizing: border-box;
-    margin-bottom: var(--margin-bottom3);
-    padding: calc(1vh + 2.5vw) calc(.5vh + .8vw);
+    
+    margin: 0 var(--margin1);
+    margin-bottom: var(--margin4);
+    padding: 3rem 1rem;
 }
 /* img */
 #services .services_cards_card img{
-    width: 30%;
+    width: 35%;
 
-    margin-bottom: calc(.2vh + .5vw);
+    margin-bottom: .2rem;
 }
 /* h3 */
 #services  .services_cards_card h3{
-    font-size: var(--font-size3);
+    font-size: var(--font-size4);
     font-weight: 500;
 
-    margin-bottom: calc(.3vh + .5vw);
+    margin-bottom: var(--margin1);
 }
 /* p */
 #services .services_cards_card p {
-    font-size: var(--font-size1);
-
     margin-bottom: 0;
 }
 
@@ -89,7 +86,7 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    margin-top: calc(.8vh + .5vw);
+    margin-top: var(--margin2);
 }
 
 
@@ -98,19 +95,21 @@
     width: 70%;
 
     box-sizing: border-box;
-    padding-right: calc(.5vh + 1vw);
+
+    margin-bottom: 0;
+    padding-right: .5rem;
 }
 
 
 /* button */
 #services #services_partner button{
     color: var(--pink2);
-    font-size: var(--font-size1);
+    font-size: var(--font-size2);
     font-weight: 300;
-    border: 1px solid var(--pink2);
-    border-radius: 10vh;
+    border: .1rem solid var(--pink2);
+    border-radius: var(--border-radius2);
 
-    padding: calc(.5vh + 1vw) calc(1vh + 2vw);
+    padding: 1rem 2rem;
     transition: background-color .25s;
 }#services #services_partner button:hover{
     color: #fff;
@@ -124,43 +123,4 @@
 /* Responsive */
 /* 991 */
 @media screen and (max-width: 991px) {
-    #services{
-        width: 70%;
-    }
-
-
-
-    /* Cards */
-    #services  .services_cards_card{
-        width: 45%;
-
-        margin: 0 calc(.8vh + .4vw);
-        margin-bottom: var(--margin-bottom2-responsive);
-        padding: calc(4vh + 1.5vw) calc(1vh + .8vw);
-    }
-
-    /* img */
-    #services .services_cards_card img{
-        margin-bottom: calc(.2vh + .1vw);
-    }
-    /* h3 */
-    #services  .services_cards_card h3{
-        font-weight: 500;
-
-        margin-bottom: calc(.7vh + .3vw);
-    }
-
-
-
-    /* Partner */
-    /* button */
-    #services #services_partner button{
-        max-width: 23%;
-
-        font-size: var(--font-size1);
-        line-height: var(--line-height);
-        box-sizing: border-box;
-
-        padding: calc(.5vh + 1vw) calc(1vh + 2.5vw);
-    }
 }
