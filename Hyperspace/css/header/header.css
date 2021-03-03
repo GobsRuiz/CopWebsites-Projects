@@ -34,7 +34,7 @@
     background: -webkit-linear-gradient(to bottom, #000000, #00000000);
     box-sizing: border-box;
 
-    padding: 3rem  8rem;
+    padding: 4rem  8rem;
     position: fixed;
     z-index: 9999;
 }
@@ -187,3 +187,12 @@
 
 
 /* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Bottom */
+    #header_bottom{
+        padding-top: 15rem;
+        padding-bottom: 1rem;
+        padding-left: 10.5rem;
+}
+}

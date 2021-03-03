@@ -47,5 +47,7 @@
 /* Responsive */
 /* 991 */
 @media screen and (max-width: 991px) {
-    
+    #footer{
+        padding: var(--padding1) var(--padding3);
+    }
 }

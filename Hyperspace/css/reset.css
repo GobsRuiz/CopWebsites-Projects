@@ -61,3 +61,14 @@ input, textarea{
     color: var(--black);
 }
 
+
+
+
+
+/* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    html{
+        font-size: 13px;
+    }
+}

@@ -92,12 +92,11 @@
 
 /* p */
 #services #services_partner p{
-    width: 70%;
+    max-width: 70%;
 
     box-sizing: border-box;
 
     margin-bottom: 0;
-    padding-right: .5rem;
 }
 
 
@@ -123,4 +122,30 @@
 /* Responsive */
 /* 991 */
 @media screen and (max-width: 991px) {
+    #services{
+        width: 75%;
+    }
+
+
+
+    /* Cards */
+    /* card */
+    #services  .services_cards_card{
+        width: 45%;
+    }
+
+
+
+    /* Partner */
+    /* p */
+    #services #services_partner p{
+        max-width: 60%;
+    }
+
+    /* button */
+    #services #services_partner button{
+        max-width: 22%;
+
+        padding: 1rem 1.5rem;
+    }
 }

@@ -35,7 +35,7 @@
 }
 /* li */
 #process_container ol li{
-    margin-bottom: var(--margin4);
+    margin-bottom: var(--margin5);
 }
 /* h3 */
 #process_container_ol li h3{
@@ -75,6 +75,15 @@
 /* Responsive */
 /* 991 */
 @media screen and (max-width: 991px) {
+    /* Container */
+    #process_container{
+        width: 45%;
+
+        margin: 0 auto;
+        margin-bottom: var(--margin6);
+        position: relative;
+    }
+
     /* Image */
     #process_representationImage{
         width: 100%;

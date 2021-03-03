@@ -57,3 +57,32 @@
 
 
 /* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Line */
+    .line{
+        height: 112rem;
+
+        left: 10rem;
+    }
+
+    /* Ball */
+    .line_ball{
+        left: -10rem;
+    }
+
+    /* hr */
+    .line_hr{
+        left: -8.5rem;
+    }
+
+    /* Fixing some differences */
+    /* About */
+    #about_container .line_ball{
+        top: 0;
+        left: -5.85rem;
+    }
+    #about_container .line_hr{
+        left: -4.35rem;
+    }
+}

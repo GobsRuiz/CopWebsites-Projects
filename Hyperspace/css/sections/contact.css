@@ -111,11 +111,9 @@
  
 /* p */
 #contact_contact p{
-    flex: 1;
+    max-width: 70%;
 
     font-size: var(--font-size6);
-
-    margin-right: .5rem;
 }
 #contact_contact p span{
     font-size: var(--font-size6);
@@ -148,3 +146,35 @@
 
 /* Responsive */
 /* 991 */
+@media screen and (max-width: 991px) {
+    /* Address */
+    /* p */
+    #contact_address p,
+    #contact_address p span{
+        font-size: var(--font-size2);
+    }
+
+
+
+    /* Contact */
+    /* Contact */
+    #contact_contact{
+        padding: 0 9.5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* p */
+    #contact_contact p{
+        max-width: 52%;
+        
+        font-size: var(--font-size6);
+        line-height: 3rem;
+    }
+    #contact_contact p span{
+        font-size: var(--font-size6);
+    }
+    /* button */
+    #contact_contact button{
+        padding: 1rem 1.5rem;
+    }
+}

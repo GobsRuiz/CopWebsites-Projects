@@ -43,3 +43,10 @@
 
 
 /* Responsive */
+/* 991 */
+@media screen and (max-width: 991px) {
+    /* Container */
+    #about_container{
+        width: 45%;
+    }
+}
