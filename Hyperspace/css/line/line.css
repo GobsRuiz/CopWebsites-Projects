@@ -37,7 +37,7 @@
 
     position: absolute;
     top: 1rem;
-    left: -11.75rem;
+    left: -35.5%;
     z-index: 9;
 }
 
@@ -50,7 +50,7 @@
 
     position: absolute;
     top: 1.25rem;
-    left: -10.75rem;
+    left: -31.5%;
 }
 
 
@@ -72,6 +72,74 @@
 
 
 /* Responsive */
+/* 1152 */
+@media screen and (max-width: 1152px) {
+    /* 864 */
+    @media screen and (max-height: 864px) {
+        /* Line */
+        .line{
+            height: 90.5rem;
+        }
+
+        /* Ball */
+        .line_ball{
+            left: -11.35rem;
+        }
+
+        /* hr */
+        .line_hr{
+            left: -10.35rem;
+        }
+
+
+
+        /* Fixing some differences */
+        /* About */
+        #about_container .line_ball{
+            top: 3.5rem;
+            left: -7.65rem;
+        }
+        #about_container .line_hr{
+            top: 3.75rem;
+            left: -6.65rem;
+        }
+    }
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    /* 768 */
+    @media screen and (max-height: 768px) {
+        /* Line */
+        .line{
+            height: 97.5rem;
+        }
+
+        /* Ball */
+        .line_ball{
+            left: -10.45rem;
+        }
+
+        /* hr */
+        .line_hr{
+            left: -9.45rem;
+        }
+
+
+
+        /* Fixing some differences */
+        /* About */
+        #about_container .line_ball{
+            top: 3.5rem;
+            left: -6.75rem;
+        }
+        #about_container .line_hr{
+            top: 3.75rem;
+            left: -5.75rem;
+        }
+    }
+}
+
 /* 991 */
 @media screen and (max-width: 991px) {
     /* Line */

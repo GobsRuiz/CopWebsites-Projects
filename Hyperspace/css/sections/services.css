@@ -112,7 +112,7 @@
     transition: background-color .25s;
 }#services #services_partner button:hover{
     color: #fff;
-    background-color: var(--pink2);
+    background-color: var(--pink);
 }
 
 
