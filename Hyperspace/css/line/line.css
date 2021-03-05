@@ -1,8 +1,9 @@
 #line{
+    width: 80%;
+
     position: absolute;
-    top: 28%;
-    left: 15%;
-    transform: translateX(-75%);
+    top: 28.5%;
+    left: 14.8%;
     z-index: 9;
 }
 #line_hr{
@@ -49,6 +50,15 @@
     left: 1rem;
 }
 
+/* About */
+.about-1{
+    top: 34.6%;
+}
+.about-1hr{
+    top: 34.9%;
+}
+
+/* Process */
 .li-1{
     top: 76.6%;
 }
@@ -72,32 +82,53 @@
 
 
 
-/* Fixing some differences */
-/* About */
-#about_container .line_ball{
-    top: 3.5rem;
-    left: -8.05rem;
-}
-#about_container .line_hr{
-    top: 3.75rem;
-    left: -7.05rem;
-}
-
-
-
 
 
 
 /* Responsive */
+/* 1024 */
+@media (max-width: 1024px) {
+    @media (min-height: 1360px) and (max-height: 1370px) {
+        /* Line */
+        #line{
+            top: 36%;
+        }
 
+        /* hr */
+        #line_hr{
+            height: 97.5rem;
+        }
 
-/* 700 */
-@media screen and (max-width: 700px) {
-    /* Line, line2, ball and hr */
-    .line,
-    .line2,
-    .line_ball,
-    .line_hr{
+        /* About */
+        .about-1{
+            top: 32.6%;
+        }
+        .about-1hr{
+            top: 32.9%;
+        }
+
+        /* Process */
+        .li-2{
+            top: 88.6%;
+        }
+        .li-2hr{
+            top: 88.9%;
+        }
+    }
+}
+
+/* 991 */
+@media (max-width: 991px) {
+    /* Line */
+    #line{
+        top: 38.5%;
+    }
+}
+
+/* 800 */
+@media (max-width: 800px) {
+    /* Line */
+    #line{
         display: none;
     }
 }

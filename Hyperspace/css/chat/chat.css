@@ -289,8 +289,9 @@
 /* 991 */
 @media screen and (max-width: 991px) {
     #chat{
-        position: fixed;
+        bottom: 2%;
     }
+    
 
 
 

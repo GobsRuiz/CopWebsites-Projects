@@ -45,15 +45,15 @@
 
 /* Responsive */
 /* 991 */
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
     /* Container */
     #about_container{
         width: 45%;
     }
 }
 
-/* 700 */
-@media screen and (max-width: 700px) {
+/* 800 */
+@media (max-width: 800px) {
     /* Container */
     #about_container{
         width: 100%;

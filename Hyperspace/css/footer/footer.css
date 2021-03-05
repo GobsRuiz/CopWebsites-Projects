@@ -27,7 +27,8 @@
 }
 
 /* p */
-#footer_copyright p{
+#footer_copyright p,
+#footer_copyright p a{
     color: var(--white2);
     font-size: var(--font-size1);
     font-weight: 500;
@@ -37,7 +38,6 @@
 
 /* a */
 #footer_copyright p a{
-    color: var(--white2);
     text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@
 
 /* Responsive */
 /* 991 */
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
     /* hr */
     #footer hr{
         width: 80%;

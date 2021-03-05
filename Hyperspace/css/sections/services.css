@@ -121,7 +121,7 @@
 
 /* Responsive */
 /* 991 */
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
     #services{
         width: 75%;
     }
@@ -151,7 +151,7 @@
 }
 
 /* 700 */
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     /* Cards */
     /* card */
     #services  .services_cards_card{
