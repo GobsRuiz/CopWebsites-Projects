@@ -51,16 +51,14 @@
 </head>
 <body>
 
-    <!-- Line -->
-    <hr class="line">
+
     
 
     <!-- Header -->
     <header id="header" class="section_black">
-        <!-- This class is found in reset.css -->
-        <div class="container">
-            <!-- Top -->
-            <div id="header_top">
+        <!-- Top -->
+        <div id="header_top">
+            <div id="header_top_container">
                 <!-- Logo -->
                 <div id="header_top_logo">
                     <img src="images/header/hyperspace-logo.svg" alt="">
@@ -91,6 +89,13 @@
                     </nav>
                 </div>
             </div>
+        </div>
+
+        <!-- This class is found in the reset.css -->
+        <div class="container">
+            <!-- Line -->
+            <hr class="line">
+            <hr class="line2">
     
             <!-- Bottom -->
             <div id="header_bottom">
@@ -369,18 +374,18 @@
         <!-- Contact -->
         <section id="contact" class="section_black">
             <!-- This class is found in the reset.css -->
+            <!-- Address -->
+            <div id="contact_address">
+                <p>
+                    <span>
+                        WeWork Berrini 
+                    </span>
+                    
+                    _Av. das Nações Unidas, 12901, Sala 12-107 - Cidade Monções, São Paulo - SP
+                </p>
+            </div>
+            
             <div class="container">
-                <!-- Address -->
-                <div id="contact_address">
-                    <p>
-                        <span>
-                            WeWork Berrini 
-                        </span>
-    
-                        _Av. das Nações Unidas, 12901, Sala 12-107 - Cidade Monções, São Paulo - SP
-                    </p>
-                </div>
-    
                 <!-- Social networks -->
                 <div id="contact_socialNetworks">
                     <p>
@@ -467,30 +472,32 @@
         <!-- Chat | talk -->
         <div id="chat_chat">
             <!-- Info -->
-            <!-- Left -->
-            <div id="chat_chat_infoLeft">
-                <h1>
-                    Chat with us
-                </h1>
-
-                <p>
-                    Bem-vindo ao nosso site. Pergunte-nos qualquer coisa🎉 
-                </p>
-            </div>
-
-            <!-- Right -->
-            <div id="chat_chat_infoRight">
-                <div id="chat_chat_infoRight_icons">
-                    <i>
-                        <img src="images/icons/menu2.svg" alt="">
-                    </i>
-                    <i id="chat_chat_infoRight_closebtn">
-                        <img src="images/icons/arrowDown.svg" alt="">
-                    </i>
+            <div id="chat_chat_info">
+                <!-- Left -->
+                <div id="chat_chat_infoLeft">
+                    <h1>
+                        Chat with us
+                    </h1>
+    
+                    <p>
+                        Bem-vindo ao nosso site. Pergunte-nos qualquer coisa🎉 
+                    </p>
                 </div>
-
-                <div id="chat_chat_infoRight_bot">
-                    <img src="images/icons/bot.png" alt="">
+    
+                <!-- Right -->
+                <div id="chat_chat_infoRight">
+                    <div id="chat_chat_infoRight_icons">
+                        <i>
+                            <img src="images/icons/menu2.svg" alt="">
+                        </i>
+                        <i id="chat_chat_infoRight_closebtn">
+                            <img src="images/icons/arrowDown.svg" alt="">
+                        </i>
+                    </div>
+    
+                    <div id="chat_chat_infoRight_bot">
+                        <img src="images/icons/bot.png" alt="">
+                    </div>
                 </div>
             </div>
 

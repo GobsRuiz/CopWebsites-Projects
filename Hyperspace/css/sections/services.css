@@ -102,13 +102,13 @@
 
 /* button */
 #services #services_partner button{
-    color: var(--pink2);
+    color: var(--pink);
     font-size: var(--font-size2);
     font-weight: 300;
-    border: .1rem solid var(--pink2);
+    border: .1rem solid var(--pink);
     border-radius: var(--border-radius2);
 
-    padding: 1rem 2rem;
+    padding: .8rem 2rem;
     transition: background-color .25s;
 }#services #services_partner button:hover{
     color: #fff;

@@ -8,14 +8,23 @@ function chat() {
     // Functions
     // Open chat
     function openChat() {
-        iconPencil.addEventListener("click", (e) => {
-            console.log("open")
-            // Switch icon 
-            switchIcon();
-            
-            // Show chat
-            open()
-        })
+        if(window.innerWidth > 991){
+            iconPencil.addEventListener("click", (e) => {
+                // Switch icon 
+                switchIcon();
+                
+                // Show chat
+                open("block", "-52%")
+            })
+        }else{
+            iconChat.addEventListener("click", (e) => {
+                // Switch icon 
+                switchIcon();
+                
+                // Show chat
+                open("grid", "0%")
+            })
+        }
         
         // Switch icon
         function switchIcon() {
@@ -27,14 +36,13 @@ function chat() {
             iconChat.children[0].style.left = "-200%";
             iconChat.children[1].style.left = "-90%";
         }
-    
         // Show chat
-        function open() {
-            chat.style.display = "grid";
+        function open(displayValue, leftValue) {
+            chat.style.display = displayValue;
     
             setTimeout(() => {
                 chat.style.opacity = "1";
-                chat.style.left = "-52%";
+                chat.style.left = leftValue;
             }, 10);
         }
     }openChat()
@@ -66,9 +74,13 @@ function chat() {
 
         // Close chat
         function close() {
+            if(window.innerWidth > 991){
+                chat.style.left = "-45%";
+            }else{
+                chat.style.left = "0%";
+            }
+            
             chat.style.opacity = "0";
-            chat.style.left = "-45%";
-
             setTimeout(() => {
                 chat.style.display = "none";
             }, 310);

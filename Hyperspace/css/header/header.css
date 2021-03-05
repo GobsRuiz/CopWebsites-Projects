@@ -16,6 +16,11 @@
     left: 0;
 }
 
+/* Container */
+#header .container{
+    position: relative;
+}
+
 
 
 
@@ -25,8 +30,7 @@
     width: 100%;
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 
     background: linear-gradient(to bottom, #000000, #00000000); 
     background: -o-linear-gradient(to bottom, #000000, #00000000);
@@ -37,6 +41,15 @@
     padding: 4rem  8rem;
     position: fixed;
     z-index: 9999;
+}
+
+#header_top_container{
+    width: 100%;
+    max-width: 1440px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -117,7 +130,7 @@
 /* Bottom */
 #header_bottom{
     padding-top: 8rem;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     padding-left: 11.5rem;
     position: relative;
     z-index: 9;
@@ -134,7 +147,7 @@
 
 /* Text */
 #header_bottom_text{
-    padding-left: 2rem;
+    padding-left: 1.5rem;
 }
 
 /* h1 and p */
@@ -145,7 +158,7 @@
 
 /* h1 */
 #header_bottom_text h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 300;
 
     margin-bottom: var(--margin1);
@@ -153,9 +166,9 @@
 
 /* p */
 #header_bottom_text p{
-    font-size: var(--font-size3);
+    font-size: var(--font-size2);
     font-weight: 400;
-    line-height: var(--line-height2);
+    line-height: var(--line-height1);
 }
 
 
@@ -168,7 +181,7 @@
     font-size: var(--font-size2);
     font-weight: 300;
 
-    margin-top: 6rem;
+    margin-top: 9rem;
     margin-left: 6rem;
     transition: margin-left .25s;
 }#header_bottom_text button:hover{

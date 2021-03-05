@@ -1,11 +1,23 @@
 .line{
+    width: 1px;
     height: 88rem;
 
-    border: .01rem dotted #fff;
+    background-color: #fff;
 
     position: absolute;
     top: 11rem;
-    left: 11.2rem;
+    left: 11rem;
+    z-index: 1;
+}
+.line2{
+    width: 1px;
+    height: 7rem;
+
+    background-color: var(--pink);
+
+    position: absolute;
+    top: 11rem;
+    left: 11rem;
     z-index: 9;
 }
 
@@ -23,7 +35,7 @@
 
     position: absolute;
     top: 0;
-    left: -11.25rem;
+    left: -9.55rem;
     z-index: 9;
 }
 
@@ -36,7 +48,7 @@
 
     position: absolute;
     top: .25rem;
-    left: -9.5rem;
+    left: -8rem;
 }
 
 
@@ -44,11 +56,12 @@
 /* Fixing some differences */
 /* About */
 #about_container .line_ball{
-    top: 0;
-    left: -7.05rem;
+    top: 3.5rem;
+    left: -5.35rem;
 }
 #about_container .line_hr{
-    left: -5.55rem;
+    top: 3.75rem;
+    left: -3.8rem;
 }
 
 
@@ -61,28 +74,35 @@
 @media screen and (max-width: 991px) {
     /* Line */
     .line{
-        height: 112rem;
+        height: 102.5rem;
 
-        left: 10rem;
+        top: 17rem;
+        left: 10.2rem;
+    }
+
+    .line2{
+        top: 17rem;
+        left: 10.2rem;
     }
 
     /* Ball */
     .line_ball{
-        left: -10rem;
+        left: -9.85rem;
     }
 
     /* hr */
     .line_hr{
-        left: -8.5rem;
+        left: -8.35rem;
     }
 
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
-        top: 0;
-        left: -5.85rem;
+        top: 3.5rem;
+        left: -5.65rem;
     }
     #about_container .line_hr{
-        left: -4.35rem;
+        top: 3.75rem;
+        left: -4.05rem;
     }
 }
