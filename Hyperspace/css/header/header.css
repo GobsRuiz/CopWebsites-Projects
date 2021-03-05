@@ -129,9 +129,11 @@
 
 /* Bottom */
 #header_bottom{
+    width: 70%;
+
+    margin: 0 auto;
     padding-top: 8rem;
     padding-bottom: .5rem;
-    padding-left: 11.5rem;
     position: relative;
     z-index: 9;
 }
@@ -140,14 +142,12 @@
 /* Welcome paragraph */
 #header_bottom_welcomeParagraph{
     font-size: var(--font-size1);
-
-    margin-bottom: var(--margin1);
 }
 
 
 /* Text */
 #header_bottom_text{
-    padding-left: 1.5rem;
+    padding-left: 1.2rem;
 }
 
 /* h1 and p */
@@ -181,7 +181,7 @@
     font-size: var(--font-size2);
     font-weight: 300;
 
-    margin-top: 9rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     transition: margin-left .25s;
 }#header_bottom_text button:hover{
@@ -204,8 +204,82 @@
 @media screen and (max-width: 991px) {
     /* Bottom */
     #header_bottom{
-        padding-top: 15rem;
+        /* padding-top: 15rem;
         padding-bottom: 1rem;
-        padding-left: 10.5rem;
+        padding-left: 10.5rem; */
+    }
 }
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    /* Top */
+    #header_top{
+        width: 100%;
+
+        padding: 2rem  2rem;
+    }
+    /* Container */
+    #header_top_container{
+        flex-direction: column;
+    }
+
+    /* Logo */
+    #header_top_logo{
+        margin-bottom: 1rem;
+    }
+
+    /* Left content */
+    #header_top_leftContent{
+        align-items: center;
+    }
+
+    /* Languages */
+    #header_top_languages{
+        margin-bottom: .2rem;
+    }
+
+    /* Bottom */
+    #header_bottom{
+    }
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+    /* Bottom */
+    #header_bottom{
+        padding: 0 3rem;
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+    }
+    
+    /* Welcome paragraph */
+    #header_bottom_welcomeParagraph{
+        margin-bottom: .4rem;
+    }
+
+    /* Text */
+    #header_bottom_text{
+        padding-left: 0;
+    }
+
+    /* h1 and p */
+    #header_bottom_text h1,
+    #header_bottom_text p{
+        width: 100%;
+    }
+
+    /* h1 */
+    #header_bottom_text h1{
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        margin-bottom: .2rem;
+    }
+
+    /* p */
+    #header_bottom_text p{
+        font-size: var(--font-size2);
+        font-weight: 400;
+        line-height: var(--line-height1);
+    }
 }

@@ -10,8 +10,11 @@
 #process_container{
     width: 50%;
 
+    box-sizing: border-box;
+
     margin: 0 auto;
     margin-bottom: var(--margin6);
+    padding: 0 2.5rem;
     position: relative;
 }
 
@@ -77,7 +80,7 @@
 @media screen and (max-width: 991px) {
     /* Container */
     #process_container{
-        width: 40%;
+        width: 45%;
 
         margin: 0 auto;
         margin-bottom: var(--margin6);
@@ -87,5 +90,18 @@
     /* Image */
     #process_representationImage{
         width: 100%;
+    }
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    #process{
+        padding: 0;
+    }
+    /* Container */
+    #process_container{
+        width: 100%;
+
+        padding: 0 5rem;
     }
 }

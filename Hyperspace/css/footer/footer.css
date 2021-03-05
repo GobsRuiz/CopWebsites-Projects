@@ -1,5 +1,5 @@
 #footer{
-    padding: var(--padding1) var(--padding2);
+    padding: var(--padding1) 0;
 }
 
 
@@ -8,11 +8,12 @@
 
 /* hr */
 #footer hr{
-    width: 100%;
+    width: 90%;
     height: .1rem;
 
     background-color: var(--pink2);
 
+    margin: 0 auto;
     margin-bottom: var(--margin2);
 }
 
@@ -47,7 +48,8 @@
 /* Responsive */
 /* 991 */
 @media screen and (max-width: 991px) {
-    #footer{
-        padding: var(--padding1) var(--padding3);
+    /* hr */
+    #footer hr{
+        width: 80%;
     }
 }

@@ -1,12 +1,13 @@
 .line{
     width: 1px;
-    height: 88rem;
+    height: 87.5rem;
 
     background-color: #fff;
 
     position: absolute;
-    top: 11rem;
-    left: 11rem;
+    top: 10rem;
+    left: 14.9%;
+    transform: translateX(-85.1%);
     z-index: 1;
 }
 .line2{
@@ -16,8 +17,9 @@
     background-color: var(--pink);
 
     position: absolute;
-    top: 11rem;
-    left: 11rem;
+    top: 10rem;
+    left: 14.9%;
+    transform: translateX(-85.1%);
     z-index: 9;
 }
 
@@ -34,8 +36,8 @@
     border-radius: 50%;
 
     position: absolute;
-    top: 0;
-    left: -9.55rem;
+    top: 1rem;
+    left: -11.75rem;
     z-index: 9;
 }
 
@@ -47,8 +49,8 @@
     background-color: var(--pink2);
 
     position: absolute;
-    top: .25rem;
-    left: -8rem;
+    top: 1.25rem;
+    left: -10.75rem;
 }
 
 
@@ -57,11 +59,11 @@
 /* About */
 #about_container .line_ball{
     top: 3.5rem;
-    left: -5.35rem;
+    left: -8.05rem;
 }
 #about_container .line_hr{
     top: 3.75rem;
-    left: -3.8rem;
+    left: -7.05rem;
 }
 
 
@@ -74,35 +76,40 @@
 @media screen and (max-width: 991px) {
     /* Line */
     .line{
-        height: 102.5rem;
-
-        top: 17rem;
-        left: 10.2rem;
-    }
-
-    .line2{
-        top: 17rem;
-        left: 10.2rem;
+        height: 107rem;
     }
 
     /* Ball */
     .line_ball{
-        left: -9.85rem;
+        left: -11.82rem;
     }
 
     /* hr */
     .line_hr{
-        left: -8.35rem;
+        left: -10.82rem;
     }
+
+
 
     /* Fixing some differences */
     /* About */
     #about_container .line_ball{
         top: 3.5rem;
-        left: -5.65rem;
+        left: -8.12rem;
     }
     #about_container .line_hr{
         top: 3.75rem;
-        left: -4.05rem;
+        left: -7.12rem;
+    }
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    /* Line, line2, ball and hr */
+    .line,
+    .line2,
+    .line_ball,
+    .line_hr{
+        display: none;
     }
 }

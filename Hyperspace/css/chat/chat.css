@@ -356,11 +356,18 @@
         ;
         justify-content: space-between;
     }
+
+    /* Icons */
     #chat_chat_infoRight_icons{
         grid-area: right;
 
         margin-bottom: 0;
     }
+    #chat_chat_infoRight_icons i{
+        margin: 0 .25rem;
+    }
+
+    /* Image || bot */
     #chat_chat_infoRight_bot{
         grid-area: left;
     }

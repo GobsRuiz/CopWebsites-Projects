@@ -13,6 +13,7 @@
 
     background-color: #fff;
     border-radius: var(--border-radius1);
+    box-sizing: border-box;
     
     margin: 0 auto;
     padding: var(--padding1) var(--padding1);
@@ -47,6 +48,16 @@
 @media screen and (max-width: 991px) {
     /* Container */
     #about_container{
-        width: 40%;
+        width: 45%;
+    }
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    /* Container */
+    #about_container{
+        width: 100%;
+
+        border-radius: 0;
     }
 }

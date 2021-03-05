@@ -149,3 +149,28 @@
         padding: 1rem 1.5rem;
     }
 }
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    /* Cards */
+    /* card */
+    #services  .services_cards_card{
+        width: 100%;
+
+        padding: 2rem 1rem;
+    }
+    /* img */
+    #services .services_cards_card img{
+        width: 25%;
+    }
+
+
+
+    /* Partner */
+    /* button */
+    #services #services_partner button{
+        max-width: 30%;
+
+        padding: .7rem 1.5rem;
+    }
+}

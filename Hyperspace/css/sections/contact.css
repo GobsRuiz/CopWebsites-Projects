@@ -42,7 +42,7 @@
     font-size: var(--font-size3);
     font-weight: 300;
 
-
+    margin-right: .35rem;
     position: relative;
     z-index: 9;
 }
@@ -96,16 +96,17 @@
 }
  
  
- 
- 
- 
+
+
+
 /* Contact */
 #contact_contact{
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 var(--padding3);
+    margin: 0 auto;
     padding-bottom: 5rem;
 }
  
@@ -159,13 +160,12 @@
     /* Contact */
     /* Contact */
     #contact_contact{
-        padding: 0 9.5rem;
-        padding-bottom: 5rem;
+        width: 75%;
     }
 
     /* p */
     #contact_contact p{
-        max-width: 52%;
+        max-width: 60%;
         
         font-size: var(--font-size6);
         line-height: 3rem;
@@ -175,6 +175,28 @@
     }
     /* button */
     #contact_contact button{
+        padding: 1rem 1.5rem;
+    }
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    /* Address */
+    /* p */
+    #contact_address{
+        flex-direction: column;
+    }
+
+    /* p */
+    #contact_contact p,
+    #contact_contact p span{
+        font-size: var(--font-size5);
+    }
+
+    /* button */
+    #contact_contact button{
+        max-width: 32%;
+
         padding: 1rem 1.5rem;
     }
 }
