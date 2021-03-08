@@ -310,6 +310,14 @@
         margin-right: 1.5rem;
     }
 
+    /* Menu and languages */
+    /* Animation when hovering over */
+    /* a */
+    #header_top_menu a::after,
+    #header_top_languages a::after{
+        bottom: 1.6rem;
+    }
+
 
 
     /* Bottom */
@@ -322,6 +330,18 @@
     /* Button */
     #header_bottom_text button{
         margin-top: 8rem;
+    }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+    /* 640 */
+    @media (min-height: 640px) {
+    /* Button */
+    #header_bottom_text button{
+
+        margin-top: 8rem;
+    }
     }
 }
 

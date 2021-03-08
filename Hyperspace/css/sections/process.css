@@ -95,9 +95,6 @@
 
 /* 800 */
 @media (max-width: 800px) {
-    #process{
-        padding: 0;
-    }
     /* Container */
     #process_container{
         width: 100%;
@@ -113,6 +110,5 @@
         width: 100%;
 
         padding: 0 1.5rem;
-        padding-top: 3rem;
     }
 }
