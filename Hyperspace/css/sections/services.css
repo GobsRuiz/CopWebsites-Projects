@@ -167,10 +167,36 @@
 
 
     /* Partner */
+    #services #services_partner{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* p */
+    #services #services_partner p{
+        max-width: 90%;
+    }
+
     /* button */
     #services #services_partner button{
-        max-width: 30%;
+        max-width: 100%;
 
-        padding: .7rem 1.5rem;
+        margin-top: 1.5rem;
+        padding: 1rem 2.5rem;
+    }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+    #services{
+        width: 100%;
+
+        padding: 0 1.5rem;
+    }
+
+    /* Partner */
+    /* p */
+    #services #services_partner p{
+        max-width: 100%;
     }
 }

@@ -105,3 +105,14 @@
         padding: 0 6rem;
     }
 }
+
+/* 360 */
+@media (max-width: 360px) {
+    /* Container */
+    #process_container{
+        width: 100%;
+
+        padding: 0 1.5rem;
+        padding-top: 3rem;
+    }
+}

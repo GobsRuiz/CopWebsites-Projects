@@ -1,5 +1,5 @@
 #footer{
-    padding: var(--padding1) 0;
+    padding: var(--padding1) 1.5rem;
 }
 
 
@@ -50,6 +50,6 @@
 @media (max-width: 991px) {
     /* hr */
     #footer hr{
-        width: 80%;
+        width: 85%;
     }
 }

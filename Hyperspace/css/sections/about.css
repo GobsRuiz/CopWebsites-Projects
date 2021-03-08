@@ -54,10 +54,23 @@
 
 /* 800 */
 @media (max-width: 800px) {
+    #about{
+        padding: 0 0;
+    }
+    
+
     /* Container */
     #about_container{
         width: 100%;
 
         border-radius: 0;
+    }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+    /* Container */
+    #about_container{
+        padding: 1.5rem;
     }
 }

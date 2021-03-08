@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     background-image: url("../../images/sections/services/banner.png");
     background-position: center;
@@ -20,6 +21,7 @@
     background-size: cover;
 
     position: relative;
+    padding: 0 1rem;
 }#contact_address::after{
     content: "";
 
@@ -73,6 +75,7 @@
 #contact_socialNetworks_images{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 /* div */
 #contact_socialNetworks_images a{
@@ -226,12 +229,49 @@
     }
 }
 
-
-
-/* Height */
-/* 700 */
-@media (min-height: 700px) {
-    #contact_address{
-        height: 25rem;
+/* 600 */
+@media (max-width: 600px) {
+    /* Social networks */
+    #contact_socialNetworks{
+        padding: var(--padding1) 0;
     }
+
+    /* div */
+    #contact_socialNetworks_images a{
+        width: 1.8rem;
+
+        margin: 0 .5rem;
+        padding: 1.8rem;
+    }
+
+
+
+    /* Contact */
+    #contact_contact{
+        width: 100%;
+
+        flex-direction: column;
+        text-align: center;
+
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+    }
+    
+    /* p */
+    #contact_contact p{
+        max-width: 100%;
+    }
+    
+    /* button */
+    #contact_contact button{
+        max-width: 100%;
+        
+        margin-top: 1rem;
+        padding: 1rem 3rem;
+    }
+}
+
+/* 400 */
+@media (max-width: 400px) {
+
 }

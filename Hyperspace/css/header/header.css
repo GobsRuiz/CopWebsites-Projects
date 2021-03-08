@@ -216,7 +216,7 @@
     #header_top{
         width: 100%;
 
-        padding: 2rem  2rem;
+        padding: 2rem  0;
     }
     /* Container */
     #header_top_container{
@@ -261,11 +261,6 @@
         padding-top: 12.5rem;
         padding-bottom: 1rem;
     }
-    
-    /* Welcome paragraph */
-    #header_bottom_welcomeParagraph{
-        margin-bottom: .4rem;
-    }
 
     /* Text */
     #header_bottom_text{
@@ -283,7 +278,7 @@
         font-size: 1.8rem;
         font-weight: 300;
 
-        margin-bottom: .2rem;
+        margin-bottom: .4rem;
     }
 
     /* p */
@@ -291,6 +286,42 @@
         font-size: var(--font-size2);
         font-weight: 400;
         line-height: var(--line-height1);
+    }
+}
+
+/* 400 */
+@media (max-width: 400px) {
+    /* Top */
+    #header_top{
+        width: 100%;
+
+        padding: 2rem  0;
+    }
+
+    /* Menu */
+    #header_top_menu{
+        height: 3rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #header_top_menu a{
+        margin-right: 1.5rem;
+    }
+
+
+
+    /* Bottom */
+    #header_bottom{
+        width: 90%;
+        padding-top: 11rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Button */
+    #header_bottom_text button{
+        margin-top: 8rem;
     }
 }
 
