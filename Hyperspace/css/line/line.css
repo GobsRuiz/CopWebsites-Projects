@@ -8,7 +8,7 @@
 }
 #line_hr{
     width: 1px;
-    height: 89.5rem;
+    height: 85rem;
 
     background-color: #fff;
 }
@@ -52,25 +52,25 @@
 
 /* About */
 .about-1{
-    top: 34.6%;
+    top: 35.3%;
 }
 .about-1hr{
-    top: 34.9%;
+    top: 35.6%;
 }
 
 /* Process */
 .li-1{
-    top: 76.6%;
+    top: 77%;
 }
 .li-1hr{
-    top: 76.9%;
+    top: 77.3%;
 }
 
 .li-2{
-    top: 87.6%;
+    top: 88.7%;
 }
 .li-2hr{
-    top: 87.9%;
+    top: 89%;
 }
 
 .li-3{
@@ -88,6 +88,40 @@
 /* Responsive */
 /* 1024 */
 @media (max-width: 1024px) {
+    /* 768 */
+    @media (min-height: 768px) {
+        /* Line */
+
+        /* hr */
+        #line_hr{
+            height: 97.5rem;
+        }
+
+        /* About */
+        .about-1{
+            top: 33%;
+        }
+        .about-1hr{
+            top: 33.3%;
+        }
+
+        /* Process */
+        .li-1{
+            top: 77.2%;
+        }
+        .li-1hr{
+            top: 77.5%;
+        }
+        
+        .li-2{
+            top: 88.7%;
+        }
+        .li-2hr{
+            top: 89%;
+        }
+    }
+
+    /* 1360 */
     @media (min-height: 1360px) and (max-height: 1370px) {
         /* Line */
         #line{
